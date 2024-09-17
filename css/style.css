@@ -115,8 +115,13 @@ nav {
 }
 
 .logo{
-    max-width: 15%;
-    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.tohome {
+    max-width: 18%;
+    margin-left: 0px;
     height: auto;
     object-fit: cover;
     margin: 5px
@@ -124,11 +129,25 @@ nav {
 
 .goback {
     max-width: 5%;
-    margin-left: 0;
+    margin-left: 0px;
     height: auto;
+    flex: none;
 }
 
 .goback img{
+    max-width: 100%;
+    height: auto;
+}
+
+.gobackindex{
+    visibility: hidden;
+    max-width: 5%;
+    height: auto;
+    flex: none;
+}
+
+.gobackindex img{
+
     max-width: 100%;
     height: auto;
 }
