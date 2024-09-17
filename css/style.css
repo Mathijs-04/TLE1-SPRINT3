@@ -5,6 +5,83 @@
 
 html {
     font-family: "Font", sans-serif;
+    /*overflow-y: hidden;*/
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #E7D1FF;
+    position: relative;
+}
+
+header img{
+    height: 10rem;
+    width: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 10rem;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 7.5rem;
+    position: relative;
+    margin: 0;
+}
+
+.headText {
+    padding-top: 25rem;
+}
+
+.placeholder {
+    position: absolute;
+    padding-top: 10rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.description {
+    display: none;
+}
+
+.button {
+    margin-top: -25%;
+    font-size: 3rem;
+    color: #E7D1FF;
+    background-color: white;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+footer {
+    display: none;
+    margin-top: 24rem;
+    background-color: #E7D1FF;
+    height: 4rem;
+    position: relative;
+    z-index: 2;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    padding-top: .55rem;
 }
 
 nav {

@@ -3,12 +3,12 @@
  * @return array
  */
 
-function experienceListMaker()
+function experienceListMaker(): array
 {
     return [
     [
         "id" => 1,
-        "experience" => "",
+        "experience" => "groene draak",
         "image" => ""
     ],
     [
@@ -29,16 +29,17 @@ function experienceListMaker()
         "image" => ""
     ],
     ];
+    /**
+     * @param $id
+     * @return mixed
+     */
 }
-/**
- * @param $id
- * @return mixed
- */
-function experienceDetails($id)
+
+function experienceDetails($id): array
 {
     $tags = [
         1 => [
-            "experience" => "",
+            "experience" => "gele voeten",
             "image" => "",
             "info" => "",
             "url" => "",
@@ -57,4 +58,8 @@ function experienceDetails($id)
         ],
     ];
     return $tags[$id];
+    /**
+     * @param $id
+     * @return mixed
+     */
 }
