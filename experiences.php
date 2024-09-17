@@ -15,7 +15,7 @@
 <nav>
     <a href="index.php" class="goback"><img src="./img/go-back-2.png" alt="goback"></a >
     <a href="index.php" class="tohome"><img src="./img/expcorp.webp" alt="logo" class="logo"></a>
-    <a href="index.php" class="empty"></a>
+    <a href="index.php" class="gobackindex"><img src="./img/go-back-2.png" alt="goback"></a >
 
 </nav>
 
@@ -25,7 +25,22 @@
 
 </header>
 <main>
-    <!-- Main page with background image, description text and button -->
+    <div class="genre"><h>genre</h></div>
+
+    <div class="experiencescards">
+        <div class="experiencecard">
+            <a href="experience.php" class="card"><img src="./img/expcorpstacked.webp" alt="goback"> Experience</a >
+        </div>
+
+        <div class="experiencecard">
+            <a href="experience.php" class="card"><img src="./img/expcorpstacked.webp" alt="goback"> Experience</a >
+        </div>
+
+
+
+
+    </div>
+
 </main>
 <footer>
     <!-- Footer -->
