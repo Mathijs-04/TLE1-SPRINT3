@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-    <img src="./img/expcorpstacked.webp" alt="logo" class="homeLogo">
+    <img src="./img/Header.webp" alt="logo" class="homeLogo">
 </header>
 <main>
     <div>
