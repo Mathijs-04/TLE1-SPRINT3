@@ -41,6 +41,10 @@ h2 {
     margin: 0;
 }
 
+#title {
+    color: black;
+}
+
 /*.headText {*/
 /*    padding-top: 25rem;*/
 /*}*/
@@ -106,7 +110,7 @@ nav {
 
 .goback {
     max-width: 5%;
-    margin-left: 0px;
+    margin-left: 0;
     height: auto;
 }
 
