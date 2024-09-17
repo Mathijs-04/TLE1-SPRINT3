@@ -3,6 +3,7 @@ let parent;
 function init() {
     console.log(window.location.href);
     urlChecker();
+    playAudio();
 }
 function AJAXRequest(location, successCallback) {
     fetch(location)
@@ -56,4 +57,9 @@ function urlChecker(){
         console.log(`ID found: ${parent}`);
         AJAXRequest(`data.php?id=${parent}`, mainSecMaker);
     }
+}
+
+function playAudio() {
+    let audio = new Audio('./audio/Audio.wav');
+    audio.play();
 }
