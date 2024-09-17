@@ -28,8 +28,15 @@ header img{
     height: auto;
 }
 
+.highResLogo {
+    position: absolute;
+    z-index: 1;
+    margin-left: .5rem;
+    width: 6rem;
+    height: auto;
+}
+
 h1 {
-    font-family: "Barber", sans-serif;
     color: white;
     font-size: 10rem;
     position: relative;
@@ -38,11 +45,14 @@ h1 {
 }
 
 h2 {
-    font-family: "Barber", sans-serif;
     color: white;
     font-size: 7.5rem;
     position: relative;
     margin: 0;
+}
+
+.pHome {
+    font-family: "Barber", sans-serif;
 }
 
 #title {
@@ -105,8 +115,13 @@ nav {
 }
 
 .logo{
-    max-width: 15%;
-    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.tohome {
+    max-width: 18%;
+    margin-left: 0px;
     height: auto;
     object-fit: cover;
     margin: 5px
@@ -114,8 +129,9 @@ nav {
 
 .goback {
     max-width: 5%;
-    margin-left: 0;
+    margin-left: 0px;
     height: auto;
+    flex: none;
 }
 
 .goback img{
@@ -123,19 +139,15 @@ nav {
     height: auto;
 }
 
+.gobackindex{
+    visibility: hidden;
+    max-width: 5%;
+    height: auto;
+    flex: none;
+}
 
+.gobackindex img{
 
-/* BLIJF VAN DEze section AF */
-
-
-
-
-
-
-
-
-
-
-
-
-/*OK JE MAG EER VERDER GAAN*/
+    max-width: 100%;
+    height: auto;
+}

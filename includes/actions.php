@@ -13,27 +13,19 @@ function experienceListMaker(): array
     ],
     [
         "id" => 2,
-        "experience" => "",
+        "experience" => "vier",
         "image" => ""
     ],[
-        "id" => 2,
-        "experience" => "",
-        "image" => ""
-    ],[
-        "id" => 2,
-        "experience" => "",
-        "image" => ""
-    ],[
-        "id" => 2,
-        "experience" => "",
+        "id" => 3,
+        "experience" => "vijf",
         "image" => ""
     ],
     ];
-    /**
-     * @param $id
-     * @return mixed
-     */
-}
+
+} /**
+ * @param $id
+ * @return array
+ */
 
 function experienceDetails($id): array
 {
@@ -45,21 +37,17 @@ function experienceDetails($id): array
             "url" => "",
         ],
         2 => [
-            "experience" => "",
+            "experience" => "vijf",
             "image" => "",
             "info" => "",
             "url" => "",
         ],
         3 => [
-            "experience" => "",
+            "experience" => "zes",
             "image" => "",
             "info" => "",
             "url" => "",
         ],
     ];
-    return $tags[$id];
-    /**
-     * @param $id
-     * @return mixed
-     */
+    return $tags[$id] ?? [];
 }
