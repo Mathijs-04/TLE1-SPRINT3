@@ -40,13 +40,13 @@ h2 {
     margin: 0;
 }
 
-.headText {
-    padding-top: 25rem;
-}
+/*.headText {*/
+/*    padding-top: 25rem;*/
+/*}*/
 
 video {
     position: absolute;
-    padding-top: 10rem;
+    padding-top: 7.5rem;
     top: 0;
     left: 0;
     width: 100%;
@@ -59,7 +59,6 @@ video {
 }
 
 .button {
-    margin-top: -25%;
     font-size: 3rem;
     color: #E7D1FF;
     background-color: white;
