@@ -19,16 +19,21 @@ nav {
 
 }
 
-nav img {
-    max-width: 10%;
+.logo{
+    max-width: 15%;
     justify-content: center;
     height: auto;
     object-fit: cover;
+    margin: 5px
 }
 
 .goback {
     max-width: 5%;
-
+    margin-left: 0px;
     height: auto;
-    object-fit: cover;
+}
+
+.goback img{
+    max-width: 100%;
+    height: auto;
 }
