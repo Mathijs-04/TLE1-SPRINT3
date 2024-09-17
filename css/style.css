@@ -1,6 +1,11 @@
 @font-face {
     font-family: "Font";
-    src: url('../font/font.woff') format('woff');
+    src: url('../font/Font.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Barber";
+    src: url("../font/Barber.woff") format('woff');
 }
 
 html {
@@ -16,16 +21,15 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #E7D1FF;
-    position: relative;
-}
+    position: relative;}
 
 header img{
-    height: 10rem;
-    width: auto;
+    width: 100vw;
+    height: auto;
 }
 
 h1 {
+    font-family: "Barber", sans-serif;
     color: white;
     font-size: 10rem;
     position: relative;
@@ -34,6 +38,7 @@ h1 {
 }
 
 h2 {
+    font-family: "Barber", sans-serif;
     color: white;
     font-size: 7.5rem;
     position: relative;
@@ -96,16 +101,40 @@ nav {
 
 }
 
-nav img {
-    max-width: 10%;
-    justify-content: center;
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+
+.tohome {
+    max-width: 18%;
+    margin-left: 0px;
     height: auto;
     object-fit: cover;
+    margin: 5px
 }
 
 .goback {
     max-width: 5%;
-
+    margin-left: 0px;
     height: auto;
-    object-fit: cover;
+    flex: none;
+}
+
+.goback img{
+    max-width: 100%;
+    height: auto;
+}
+
+.gobackindex{
+    visibility: hidden;
+    max-width: 5%;
+    height: auto;
+    flex: none;
+}
+
+.gobackindex img{
+
+    max-width: 100%;
+    height: auto;
 }
