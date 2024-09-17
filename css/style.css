@@ -10,7 +10,6 @@
 
 html {
     font-family: "Font", sans-serif;
-    /*overflow-y: hidden;*/
 }
 
 body {
@@ -19,6 +18,7 @@ body {
 
 .indexBody {
     overflow-y: hidden;
+    background-color: #E7D1FF;
 }
 
 header {
@@ -154,7 +154,9 @@ nav {
     height: auto;
 }
 
-
+.expUrl {
+    min-width: 10vw;
+}
 
 
 /*
