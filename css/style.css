@@ -154,7 +154,9 @@ nav {
     height: auto;
 }
 
-
+.expUrl {
+    min-width: 10vw;
+}
 
 
 /*
