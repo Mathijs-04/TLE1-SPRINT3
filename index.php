@@ -11,13 +11,13 @@
 </head>
 <body>
 <nav>
-    <a href="index.php" class="goback"><img src="./img/go-back-2.png" alt="goback"></a >
-    <img src="./img/expcorp.webp" alt="logo" class="logo">
-    <a href="index.php" class="navlinks"></a>
+    <a href="index.php" class="gobackindex"><img src="./img/go-back-2.png" alt="goback"></a >
+    <a href="index.php" class="tohome"><img src="./img/expcorp.webp" alt="logo" class="logo"></a>
+    <a href="index.php" class="empty"></a>
 
 </nav>
 <header>
-    <img src="./img/expcorp.webp" alt="logo" class="homeLogo">
+
 </header>
 <main>
     <div>
