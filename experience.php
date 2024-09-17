@@ -29,6 +29,7 @@
             <h2 class="titleExp"></h2>
         </div>
         <div id="expImgDiv">
+            <img id="imgExp" src="" alt="expImage">
         </div>
         <div id="different">
             <p class="context"></p>

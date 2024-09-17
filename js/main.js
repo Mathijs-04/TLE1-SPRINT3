@@ -29,10 +29,9 @@ function mainSecMaker(data) {
         p.innerText = data.information;
         expDiv.append(p);
         const expImgDiv = document.querySelector("#expImgDiv")
-        const expImg = document.createElement("img")
+        const expImg = document.querySelector("#imgExp")
         expImg.classList.add("expImage");
         expImg.src = data.expImage;
-        console.log(expImg)
         expImgDiv.appendChild(expImg);
         const expLinkDiv = document.querySelector("#videoLink");
         const link = document.createElement("a");
