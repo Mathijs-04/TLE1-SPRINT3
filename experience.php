@@ -11,6 +11,13 @@
     <title>Walk in the park</title>
 </head>
 <body>
+
+<nav>
+    <a href="index.html" class="goback"><img src="./img/go-back-2.png" alt="goback"></a >
+    <img src="./img/expcorp.webp" alt="logo" class="logo">
+    <a href="index.html" class="navlinks"></a>
+
+</nav>
 <header>
     <a href="experiences.php"><</a>
     <a class="logo" href="index.php"><img src="./img/expcorp.webp" alt="logo"></a>
