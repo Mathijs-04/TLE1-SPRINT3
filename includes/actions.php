@@ -9,16 +9,16 @@ function experienceListMaker(): array
     [
         "id" => 1,
         "experience" => "groene draak",
-        "image" => ""
+        "expImage" => ""
     ],
     [
         "id" => 2,
         "experience" => "vier",
-        "image" => ""
+        "expImage" => ""
     ],[
         "id" => 3,
         "experience" => "vijf",
-        "image" => ""
+        "expImage" => ""
     ],
     ];
 
@@ -32,20 +32,20 @@ function experienceDetails($id): array
     $tags = [
         1 => [
             "experience" => "gele voeten",
-            "image" => "",
-            "info" => "",
+            "expImage" => "",
+            "information" => "fietsen met voeten",
             "url" => "",
         ],
         2 => [
             "experience" => "vijf",
-            "image" => "",
-            "info" => "",
+            "expImage" => "",
+            "information" => "",
             "url" => "",
         ],
         3 => [
             "experience" => "zes",
-            "image" => "",
-            "info" => "",
+            "expImage" => "",
+            "information" => "",
             "url" => "",
         ],
     ];

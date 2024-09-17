@@ -26,10 +26,14 @@
 </header>
 <main>
     <div>
-        <h2 class="title">Walk in the Park</h2>
-    </div>
-    <div id="different">
-        <p class="context"></p>
+        <div>
+            <h2 class="title"></h2>
+        </div>
+        <div id="expImgDiv">
+        </div>
+        <div id="different">
+            <p class="context"></p>
+        </div>
     </div>
 </main>
 </body>

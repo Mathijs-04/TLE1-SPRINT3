@@ -23,8 +23,11 @@ function mainSecMaker(data) {
     } else { // If data is not an array, assume it's a single experience detail
         const expDiv = document.querySelectorAll("#different");
         const p = document.querySelector(".context");
-        p.innerText = data.experience;
+        p.innerText = data.information;
         expDiv.append(p);
+        const expImg = document.querySelector("#expImgDiv")
+        expImg.src = data.expImage;
+        expDiv.append(expImg);
     }
 }
 
