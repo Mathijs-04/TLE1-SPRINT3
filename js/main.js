@@ -19,12 +19,7 @@ function AJAXRequest(location, successCallback) {
 
 function mainSecMaker(data) {
     if (Array.isArray(data)) { // Check if data is an array
-        for (let experience of data) {
-            const expDiv = document.querySelectorAll("#different");
-            const p = document.querySelector(".context");
-            p.innerText = experience.experience;
-            expDiv.append(p);
-        }
+        console.log("er staat niks")
     } else { // If data is not an array, assume it's a single experience detail
         const expDiv = document.querySelectorAll("#different");
         const p = document.querySelector(".context");
@@ -44,7 +39,6 @@ function urlChecker(){
     parent = id;
     if (id === undefined || id === null) {
         console.log('No ID found');
-        AJAXRequest("data.php", mainSecMaker);
     } else {
         console.log(`ID found: ${parent}`);
         AJAXRequest(`data.php?id=${parent}`, mainSecMaker);
