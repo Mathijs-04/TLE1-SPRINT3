@@ -225,7 +225,7 @@ BLIJF VAN DEZE SECTION AF
 }
 
 .headText h1 {
-    font-size: 7.5rem;
+    font-size: 6.5rem;
     color: white;
     text-align: center;
     margin: 0;
@@ -252,6 +252,16 @@ BLIJF VAN DEZE SECTION AF
     animation: moveBox2 20s infinite;
     animation-delay: 10s; /* Start 3 seconds after h1 */
 }
+
+.button_join {
+    position: absolute;
+    left: 20%;
+}
+
+.button_join_visible {
+    display: block; /* or any other styles to make it visible */
+}
+
 
 /* The class that triggers the animation */
 .animate {
