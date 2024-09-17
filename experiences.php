@@ -25,18 +25,30 @@
 
 </header>
 <main>
-    <div class="genre"><h>genre</h></div>
-
+    <div class="genre"><h>relax</h></div>
     <div class="experiencescards">
-        <div class="experiencecard">
-            <a href="experience.php" class="card"><img src="./img/expcorpstacked.webp" alt="goback"> Experience</a >
-        </div>
+        <a href="experience.php"><figure>
+                <img src="./img/Yoga_foto.webp" alt="experience" class="yoga">
+                <figcaption>yoga</figcaption>
+            </figure></a>
 
-        <div class="experiencecard">
-            <a href="experience.php" class="card"><img src="./img/expcorpstacked.webp" alt="goback"> Experience</a >
-        </div>
+        <a href="experience.php">
+            <figure>
+                <img src="./img/lake_foto.webp" alt="experience">
+                <figcaption>Lake</figcaption>
+            </figure>
+        </a>
 
+        <a href="experience.php"><figure>
+                <img src="./img/forest_walk_foto.webp" alt="experience">
+                <figcaption>Forest</figcaption>
+            </figure>
+        </a>
 
+        <a href="experience.php"> <figure>
+                <img src="./img/picknick_lake_foto.webp" alt="experience">
+                <figcaption >Picknick</figcaption>
+            </figure> </a>
 
 
     </div>
