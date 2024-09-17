@@ -34,19 +34,19 @@ function experienceDetails($id): array
             "experience" => "gele voeten",
             "expImage" => "",
             "information" => "fietsen met voeten",
-            "url" => "",
+            "Expurl" => "",
         ],
         2 => [
             "experience" => "vijf",
             "expImage" => "",
             "information" => "",
-            "url" => "",
+            "Expurl" => "",
         ],
         3 => [
             "experience" => "zes",
             "expImage" => "",
             "information" => "",
-            "url" => "",
+            "Expurl" => "",
         ],
     ];
     return $tags[$id] ?? [];
