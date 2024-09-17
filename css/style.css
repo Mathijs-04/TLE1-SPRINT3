@@ -28,8 +28,15 @@ header img{
     height: auto;
 }
 
+.highResLogo {
+    position: absolute;
+    z-index: 1;
+    margin-left: .5rem;
+    width: 6rem;
+    height: auto;
+}
+
 h1 {
-    font-family: "Barber", sans-serif;
     color: white;
     font-size: 10rem;
     position: relative;
@@ -38,11 +45,14 @@ h1 {
 }
 
 h2 {
-    font-family: "Barber", sans-serif;
     color: white;
     font-size: 7.5rem;
     position: relative;
     margin: 0;
+}
+
+.pHome {
+    font-family: "Barber", sans-serif;
 }
 
 #title {

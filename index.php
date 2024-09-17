@@ -11,13 +11,14 @@
 </head>
 <body>
 <header>
+    <img src="./img/expcorpstacked.webp" alt="logo" class="highResLogo">
     <img src="./img/Header.webp" alt="logo" class="homeLogo">
 </header>
 <main>
     <div>
         <div class="headText">
-            <h1>EXPCorp.</h1>
-            <h2>Experience Reality</h2>
+            <h1 class="pHome">EXPCorp.</h1>
+            <h2 class="pHome">Experience Reality</h2>
         </div>
         <video autoplay muted loop src="./video/VR-Header.mp4"></video>
         <p class="description">Why bother going outside when the greatest experiences are available from the comfort of
