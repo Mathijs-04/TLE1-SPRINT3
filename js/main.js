@@ -59,6 +59,7 @@ function urlChecker(){
     }
 }
 
+// Audio Player
 function playAudio() {
     let audio = new Audio('./audio/Audio.wav');
     audio.play();
