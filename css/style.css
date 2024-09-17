@@ -10,11 +10,14 @@
 
 html {
     font-family: "Font", sans-serif;
-    /*overflow-y: hidden;*/
 }
 
 body {
     margin: 0;
+}
+
+.indexBody {
+    overflow-y: hidden;
 }
 
 header {
@@ -58,10 +61,6 @@ h2 {
 #title {
     color: black;
 }
-
-/*.headText {*/
-/*    padding-top: 25rem;*/
-/*}*/
 
 video {
     position: absolute;
