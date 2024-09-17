@@ -26,12 +26,14 @@
 <main>
     <div>
         <div>
-            <h2 class="title"></h2>
+            <h2 class="titleExp"></h2>
         </div>
         <div id="expImgDiv">
         </div>
         <div id="different">
             <p class="context"></p>
+        </div>
+        <div id="videoLink">
         </div>
     </div>
 </main>
