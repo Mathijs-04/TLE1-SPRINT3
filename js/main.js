@@ -21,10 +21,22 @@ function mainSecMaker(data) {
     if (Array.isArray(data)) { // Check if data is an array
         console.log("er staat niks")
     } else { // If data is not an array, assume it's a single experience detail
+        const h2 = document.querySelector(".titleExp")
+        h2.innerText = data.experience;
         const expDiv = document.querySelectorAll("#different");
         const p = document.querySelector(".context");
-        p.innerText = data.experience;
+        p.innerText = data.information;
         expDiv.append(p);
+        const expImgDiv = document.querySelector("#expImgDiv")
+        const expImg = document.createElement("img")
+        expImg.classList.add("expImage");
+        expImg.src = data.expImage;
+        expImgDiv.append(expImg);
+        const expLinkDiv = document.querySelector("#videoLink");
+        const link = document.createElement("a");
+        link.classList.add("expUrl");
+        link.innerHTML = data.Expurl;
+        expLinkDiv.append(link);
     }
 }
 

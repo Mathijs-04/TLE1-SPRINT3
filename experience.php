@@ -17,19 +17,24 @@
 <nav>
     <a href="experiences.php" class="goback"><img src="./img/go-back-2.png" alt="goback"></a >
     <a href="index.php" class="tohome"><img src="./img/expcorp.webp" alt="logo" class="logo"></a>
-    <a href="index.php" class="empty"></a>
+    <a href="index.php" class="gobackindex"><img src="./img/go-back-2.png" alt="goback"></a >
 
 </nav>
 <header>
-    <a href="experiences.php"><</a>
-    <a class="logo" href="index.php"><img src="./img/expcorp.webp" alt="logo"></a>
+
 </header>
 <main>
     <div>
-        <h2 class="title">Walk in the Park</h2>
-    </div>
-    <div id="different">
-        <p class="context"></p>
+        <div>
+            <h2 class="titleExp"></h2>
+        </div>
+        <div id="expImgDiv">
+        </div>
+        <div id="different">
+            <p class="context"></p>
+        </div>
+        <div id="videoLink">
+        </div>
     </div>
 </main>
 </body>

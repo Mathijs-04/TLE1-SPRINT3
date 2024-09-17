@@ -9,7 +9,7 @@
     <script src="./js/main.js"></script>
     <title>Home</title>
 </head>
-<body>
+<body class="indexBody">
 <header>
     <img src="./img/expcorpstacked.webp" alt="logo" class="highResLogo">
     <img src="./img/Header.webp" alt="logo" class="homeLogo">

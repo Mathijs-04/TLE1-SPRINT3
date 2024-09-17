@@ -17,6 +17,10 @@ body {
     margin: 0;
 }
 
+.indexBody {
+    overflow-y: hidden;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -31,8 +35,8 @@ header img{
 .highResLogo {
     position: absolute;
     z-index: 1;
-    margin-left: .5rem;
-    width: 6rem;
+    margin-left: .5vw;
+    width: 5vw;
     height: auto;
 }
 
@@ -119,15 +123,15 @@ nav {
 
 .tohome {
     max-width: 18%;
-    margin-left: 0px;
+    margin-left: 0;
     height: auto;
     object-fit: cover;
-    margin: 5px
+    margin: 5px;
 }
 
 .goback {
     max-width: 5%;
-    margin-left: 0px;
+    margin-left: 0;
     height: auto;
     flex: none;
 }
@@ -260,3 +264,23 @@ OK JE MAG WEER VERDER
 =======================================
 
 */
+
+.genre {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.genre h {
+    background-color: rgb(231, 209, 255);
+    color: white;
+    font-size: 30px;
+    padding: 15px 50px 15px 50px;
+    margin: 35px 15px 15px 15px;
+    border-radius: 10px;
+}
+
+.experiencescards {
+    display: flex;
+    flex-direction: row;
+
+}
