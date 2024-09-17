@@ -32,7 +32,8 @@ function mainSecMaker(data) {
         const expImg = document.createElement("img")
         expImg.classList.add("expImage");
         expImg.src = data.expImage;
-        expImgDiv.append(expImg);
+        console.log(expImg)
+        expImgDiv.appendChild(expImg);
         const expLinkDiv = document.querySelector("#videoLink");
         const link = document.createElement("a");
         link.classList.add("expUrl");
