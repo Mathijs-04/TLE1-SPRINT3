@@ -18,10 +18,11 @@ header {
     justify-content: center;
     background-color: #E7D1FF;
     position: relative;
+    height: 13rem;
 }
 
 header img{
-    height: 10rem;
+    height: 12rem;
     width: auto;
 }
 
