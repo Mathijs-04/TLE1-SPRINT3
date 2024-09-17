@@ -13,9 +13,9 @@
 
 
 <nav>
-    <a href="index.html" class="goback"><img src="./img/go-back-2.png" alt="goback"></a >
+    <a href="index.php" class="goback"><img src="./img/go-back-2.png" alt="goback"></a >
     <img src="./img/expcorp.webp" alt="logo" class="logo">
-    <a href="index.html" class="navlinks"></a>
+    <a href="index.php" class="navlinks"></a>
 
 </nav>
 
