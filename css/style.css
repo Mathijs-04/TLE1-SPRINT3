@@ -5,7 +5,7 @@
 
 html {
     font-family: "Font", sans-serif;
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
 }
 
 body {
@@ -69,6 +69,7 @@ h2 {
 }
 
 footer {
+    display: none;
     margin-top: 24rem;
     background-color: #E7D1FF;
     height: 4rem;
