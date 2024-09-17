@@ -10,11 +10,14 @@
 
 html {
     font-family: "Font", sans-serif;
-    /*overflow-y: hidden;*/
 }
 
 body {
     margin: 0;
+}
+
+.indexBody {
+    overflow-y: hidden;
 }
 
 header {
@@ -58,10 +61,6 @@ h2 {
 #title {
     color: black;
 }
-
-/*.headText {*/
-/*    padding-top: 25rem;*/
-/*}*/
 
 video {
     position: absolute;
@@ -150,4 +149,24 @@ nav {
 
     max-width: 100%;
     height: auto;
+}
+
+.genre {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.genre h {
+    background-color: rgb(231, 209, 255);
+    color: white;
+    font-size: 30px;
+    padding: 15px 50px 15px 50px;
+    margin: 35px 15px 15px 15px;
+    border-radius: 10px;
+}
+
+.experiencescards {
+    display: flex;
+    flex-direction: row;
+
 }
