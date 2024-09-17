@@ -1,4 +1,5 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,28 +8,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="./css/style.css" rel="stylesheet">
     <script src="./js/main.js"></script>
-    <title>Experiences</title>
+    <title>Walk in the park</title>
 </head>
 <body>
-
-
-<nav>
-    <img src="./img/go-back-2.png" alt="go back" class="goback">
-    <img src="./img/expcorp.webp" alt="logo">
-    <a href="index.html" class="navlinks"></a>
-
-</nav>
-
 <header>
-
-
-
+    <a href="experiences.php"><</a>
+    <a class="logo" href="index.php"><img src="./img/expcorp.webp" alt="logo"></a>
 </header>
 <main>
-    <!-- Main page with background image, description text and button -->
+    <div>
+        <h2 class="title">Walk in the Park</h2>
+    </div>
+    <div id="different">
+        <p class="context"></p>
+    </div>
 </main>
-<footer>
-    <!-- Footer -->
-</footer>
 </body>
 </html>

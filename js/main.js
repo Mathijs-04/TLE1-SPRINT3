@@ -1,7 +1,8 @@
 window.addEventListener('load', init);
 
 function init() {
-    AJAXRequest("data.php", mainSecMaker);
+
+    AJAXRequest(`data.php?id=${parentDiv.id}`, mainSecMaker);
 }
 function AJAXRequest(location, successCallback) {
     fetch(location)
