@@ -23,7 +23,7 @@
         <video autoplay muted loop src="./video/VR-Header.mp4"></video>
         <p class="description">Why bother going outside when the greatest experiences are available from the comfort of
             your own home?</p>
-        <a href="experiences.php" class="button">Explore Experiences</a>
+<!--        <a href="experiences.php" class="button">Join</a>-->
     </div>
 </main>
 <footer>
