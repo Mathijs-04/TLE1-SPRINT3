@@ -21,9 +21,7 @@
             <h2 class="pHome">Experience Reality</h2>
         </div>
         <video autoplay muted loop src="./video/VR-Header.mp4"></video>
-        <p class="description">Why bother going outside when the greatest experiences are available from the comfort of
-            your own home?</p>
-<!--        <a href="experiences.php" class="button">Join</a>-->
+        <b class="button_join"><img src="./img/Button_export.png" alt="BUTTON" > </b>
     </div>
 </main>
 <footer>
