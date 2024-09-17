@@ -28,8 +28,15 @@ header img{
     height: auto;
 }
 
+.highResLogo {
+    position: absolute;
+    z-index: 1;
+    margin-left: .5vw;
+    width: 5vw;
+    height: auto;
+}
+
 h1 {
-    font-family: "Barber", sans-serif;
     color: white;
     font-size: 10rem;
     position: relative;
@@ -38,20 +45,27 @@ h1 {
 }
 
 h2 {
-    font-family: "Barber", sans-serif;
     color: white;
     font-size: 7.5rem;
     position: relative;
     margin: 0;
 }
 
-.headText {
-    padding-top: 25rem;
+.pHome {
+    font-family: "Barber", sans-serif;
 }
 
-.placeholder {
+#title {
+    color: black;
+}
+
+/*.headText {*/
+/*    padding-top: 25rem;*/
+/*}*/
+
+video {
     position: absolute;
-    padding-top: 10rem;
+    padding-top: 7.5rem;
     top: 0;
     left: 0;
     width: 100%;
@@ -64,7 +78,6 @@ h2 {
 }
 
 .button {
-    margin-top: -25%;
     font-size: 3rem;
     color: #E7D1FF;
     background-color: white;
@@ -108,15 +121,15 @@ nav {
 
 .tohome {
     max-width: 18%;
-    margin-left: 0px;
+    margin-left: 0;
     height: auto;
     object-fit: cover;
-    margin: 5px
+    margin: 5px;
 }
 
 .goback {
     max-width: 5%;
-    margin-left: 0px;
+    margin-left: 0;
     height: auto;
     flex: none;
 }

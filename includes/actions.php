@@ -9,57 +9,45 @@ function experienceListMaker(): array
     [
         "id" => 1,
         "experience" => "groene draak",
-        "image" => ""
+        "expImage" => ""
     ],
     [
         "id" => 2,
-        "experience" => "",
-        "image" => ""
+        "experience" => "vier",
+        "expImage" => ""
     ],[
-        "id" => 2,
-        "experience" => "",
-        "image" => ""
-    ],[
-        "id" => 2,
-        "experience" => "",
-        "image" => ""
-    ],[
-        "id" => 2,
-        "experience" => "",
-        "image" => ""
+        "id" => 3,
+        "experience" => "vijf",
+        "expImage" => ""
     ],
     ];
-    /**
-     * @param $id
-     * @return mixed
-     */
-}
+
+} /**
+ * @param $id
+ * @return array
+ */
 
 function experienceDetails($id): array
 {
     $tags = [
         1 => [
             "experience" => "gele voeten",
-            "image" => "",
-            "info" => "",
+            "expImage" => "",
+            "information" => "fietsen met voeten",
             "url" => "",
         ],
         2 => [
-            "experience" => "",
-            "image" => "",
-            "info" => "",
+            "experience" => "vijf",
+            "expImage" => "",
+            "information" => "",
             "url" => "",
         ],
         3 => [
-            "experience" => "",
-            "image" => "",
-            "info" => "",
+            "experience" => "zes",
+            "expImage" => "",
+            "information" => "",
             "url" => "",
         ],
     ];
-    return $tags[$id];
-    /**
-     * @param $id
-     * @return mixed
-     */
+    return $tags[$id] ?? [];
 }
