@@ -18,10 +18,11 @@ header {
     justify-content: center;
     background-color: #E7D1FF;
     position: relative;
+    height: 13rem;
 }
 
 header img{
-    height: 10rem;
+    height: 12rem;
     width: auto;
 }
 
@@ -87,6 +88,7 @@ footer p {
 nav {
     background-color: rgb(231, 209, 255);
     display: flex;
+    //justify-content: center;
     justify-content: space-between;
     align-items:center;
     width: 100%;
@@ -94,8 +96,6 @@ nav {
     position: sticky;
 
 }
-
-
 
 .logo{
     max-width: 100%;
@@ -106,10 +106,13 @@ nav {
     max-width: 18%;
     margin-left: 0px;
     height: auto;
+    object-fit: cover;
+    margin: 5px
 }
 
 .goback {
     max-width: 5%;
+    margin-left: 0px;
     height: auto;
     flex: none;
 }
