@@ -65,7 +65,7 @@ function experienceDetails($id): array
         6 => [
             "experience" => "Avondje Uit met Vrienden: Gezellig Samen zijn",
             "expImage" => "./img/night_out_foto.webp",
-            "information" => "Ervaar een gezellige avond met vrienden op een dakterras met uitzicht op de stad in onze Avondje Uit met Vrienden Experience. Het is een gewone avond waarop je samen met je vrienden lacht, gesprekken voert en een drankje doet, terwijl je geniet van het uitzicht en de sfeer. De lichte verlichting van de stad en de ontspannen omgeving maken het een aangename manier om samen tijd door te brengen. Het is een eenvoudige, maar heerlijke manier om het plezier en de gezelligheid van een avond uit te beleven.",
+            "information" => "",
             "Expurl" => "",
         ],
         7 => [
