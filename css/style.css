@@ -40,6 +40,11 @@ header img{
     height: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 .audioToggle {
     position: absolute;
     z-index: 3;
@@ -71,6 +76,12 @@ h2 {
 .pHome {
     font-family: "Barber", sans-serif;
 }
+
+#title {
+    color: black;
+}
+
+
 
 video {
     position: absolute;
@@ -180,14 +191,16 @@ nav {
     position: absolute;
     z-index: 1;
     font-size: 3rem;
-    top: 90%;
+    top: 65%;
     left: 3%;
 }
 
-.imgexp {
+#imgexp {
+    width: 100%;
     z-index: -1;
+    height:600px;
+    object-fit: cover;
 }
-
 
 /*
 =======================================
@@ -327,8 +340,8 @@ OK JE MAG WEER VERDER
 
 }
 figure img {
-    width: 300px;
-    height: 400px;
+    width: 280px;
+    height: 370px;
     object-fit: cover;
 
 }
@@ -337,6 +350,14 @@ figure img {
     object-position: 0px 0px;
 }
 
+figcaption {
+    text-decoration: none;
+}
+
+.card {
+    width: fit-content;
+    height: auto;
+}
 
 figure {
     display: grid;
