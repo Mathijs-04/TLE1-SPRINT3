@@ -88,7 +88,7 @@ function experienceDetails($id): array
         ],
         10 => [
             "experience" => "Relax Experience (Outdoor): Unwind by the River",
-            "Image" => "./img/picnic_foto.webp",
+            "Image" => "./img/picknick_lake_foto.webp",
             "information" => "Relax with a Relax Picnic Experience in a peaceful riverside meadow. Imagine lying on a blanket in the shade of a tree, surrounded by tall grass and wildflowers. The gentle flow of the river ripples in the background, while birds softly sing their melodies in the distance. It’s a simple way to relax, enjoy nature, and soak in the calm of the moment.",
             "Expurl" => "",
         ],
