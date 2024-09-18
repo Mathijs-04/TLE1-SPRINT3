@@ -6,7 +6,7 @@ let audioPlaying = false;
 function init() {
     console.log(window.location.href);
     urlChecker();
-    toggleAudio();
+    document.getElementById('audioToggle').addEventListener('click', toggleAudio);
 }
 
 function AJAXRequest(location, successCallback) {
@@ -62,6 +62,7 @@ function urlChecker() {
     }
 }
 function toggleAudio() {
+    console.log("Audio Toggled");
     let audioImage = document.getElementById('audioToggle');
     if (audioPlaying === false) {
         playAudio();
