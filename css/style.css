@@ -40,6 +40,14 @@ header img{
     height: auto;
 }
 
+.audioToggle {
+    position: absolute;
+    z-index: 3;
+    width: 8rem;
+    height: auto;
+    margin-top: -5rem;
+}
+
 h1 {
     color: white;
     font-size: 10rem;
@@ -58,12 +66,6 @@ h2 {
 .pHome {
     font-family: "Barber", sans-serif;
 }
-
-#title {
-    color: black;
-}
-
-
 
 video {
     position: absolute;
@@ -156,6 +158,29 @@ nav {
 
 .expUrl {
     min-width: 10vw;
+}
+
+.context {
+    text-align: left;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    font-size: 1.5rem;
+}
+
+.containerExp {
+    position: relative;
+}
+
+.titleExp {
+    position: absolute;
+    z-index: 1;
+    font-size: 3rem;
+    top: 90%;
+    left: 3%;
+}
+
+.imgexp {
+    z-index: -1;
 }
 
 

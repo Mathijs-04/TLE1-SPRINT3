@@ -15,6 +15,7 @@
     <img src="./img/Header.webp" alt="logo" class="homeLogo">
 </header>
 <main>
+    <img src="./img/AudioOff.webp" alt="Audio Toggle" class="audioToggle" id="audioToggle">
     <div>
         <div class="headText">
             <h1 class="pHome">EXPCorp.</h1>
