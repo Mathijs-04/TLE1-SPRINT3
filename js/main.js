@@ -1,10 +1,14 @@
 window.addEventListener('load', init);
 let parent;
+let audio;
+let audioPlaying = false;
+
 function init() {
     console.log(window.location.href);
     urlChecker();
-    playAudio();
+    toggleAudio();
 }
+
 function AJAXRequest(location, successCallback) {
     fetch(location)
         .then((response) => {
@@ -42,12 +46,12 @@ function mainSecMaker(data) {
 }
 
 
-function errorHandler(){
+function errorHandler() {
     console.log('Geen informatie opgehaald')
 }
 
-function urlChecker(){
-    const url =  new URL(decodeURIComponent(window.location.href));
+function urlChecker() {
+    const url = new URL(decodeURIComponent(window.location.href));
     const id = url.searchParams.get('id');
     parent = id;
     if (id === undefined || id === null) {
@@ -57,9 +61,27 @@ function urlChecker(){
         AJAXRequest(`data.php?id=${parent}`, mainSecMaker);
     }
 }
+function toggleAudio() {
+    let audioImage = document.getElementById('audioToggle');
+    if (audioPlaying === false) {
+        playAudio();
+        audioImage.pathname = './img/AudioOn.webp';
+        audioPlaying = true;
+    } else {
+        stopAudio();
+        audioImage.pathname = './img/AudioOff.webp';
+        audioPlaying = false;
+    }
+}
 
-// Audio Player
 function playAudio() {
-    let audio = new Audio('./audio/Audio.wav');
+    audio = new Audio('./audio/Audio.wav');
     audio.play();
+}
+
+function stopAudio() {
+    if (audio) {
+        audio.pause();
+        audio.currentTime = 0;
+    }
 }

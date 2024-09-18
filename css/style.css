@@ -40,6 +40,14 @@ header img{
     height: auto;
 }
 
+.audioToggle {
+    position: absolute;
+    z-index: 3;
+    width: 8rem;
+    height: auto;
+    margin-top: -5rem;
+}
+
 h1 {
     color: white;
     font-size: 10rem;
