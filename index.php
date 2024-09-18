@@ -22,6 +22,8 @@
             <h2 class="pHome">Experience Reality</h2>
         </div>
         <video autoplay muted loop src="./video/VR-Header.mp4"></video>
+
+
         <b class="button_join" onclick="window.location.href='experiences.php';">
             <img src="./img/Button_export.png" alt="BUTTON" class="">
         </b>
