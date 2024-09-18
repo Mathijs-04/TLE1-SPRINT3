@@ -28,7 +28,7 @@
     <div class="genre"><h>relax</h></div>
     <div class="experiencescards">
         <a href="experience.php"><figure>
-                <img src="./img/Yoga_foto.webp" alt="experience" class="yoga">
+                <img src="img/yoga_foto.webp" alt="experience" class="yoga">
                 <figcaption>yoga</figcaption>
             </figure></a>
 
