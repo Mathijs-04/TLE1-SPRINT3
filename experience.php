@@ -31,7 +31,7 @@
             </div>
             <div id="expImgDiv">
 <!--                <img id="imgexp" src="" alt="experience image">-->
-                <img src="./img/forest_walk_foto.webp" alt="forestwalk">
+                <img id="imgexp" src="./img/forest_walk_foto.webp" alt="forestwalk">
             </div>
         </div>
         <div id="different">

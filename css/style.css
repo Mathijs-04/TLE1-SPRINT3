@@ -167,14 +167,16 @@ nav {
     position: absolute;
     z-index: 1;
     font-size: 3rem;
-    top: 90%;
+    top: 65%;
     left: 3%;
 }
 
-.imgexp {
+#imgexp {
+    width: 100%;
     z-index: -1;
+    height:600px;
+    object-fit: cover;
 }
-
 
 /*
 =======================================
