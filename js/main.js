@@ -66,11 +66,11 @@ function toggleAudio() {
     let audioImage = document.getElementById('audioToggle');
     if (audioPlaying === false) {
         playAudio();
-        audioImage.pathname = './img/AudioOn.webp';
+        audioImage.src = './img/AudioOn.webp';
         audioPlaying = true;
     } else {
         stopAudio();
-        audioImage.pathname = './img/AudioOff.webp';
+        audioImage.src = './img/AudioOff.webp';
         audioPlaying = false;
     }
 }
