@@ -11,7 +11,6 @@
 </head>
 <body>
 
-
 <nav>
     <a href="index.php" class="goback"><img src="./img/go-back-2.png" alt="goback"></a >
     <a href="index.php" class="tohome"><img src="./img/expcorp.webp" alt="logo" class="logo"></a>
@@ -20,16 +19,14 @@
 </nav>
 
 <header>
-
-
-
 </header>
+
 <main>
-    <div class="genre"><h>relax</h></div>
+    <div class="genre"><h>Relax</h></div>
     <div class="experiencescards">
         <a href="experience.php?id=7" class="card"><figure>
                 <img src="img/yoga_foto.webp" alt="experience" class="yoga">
-                <figcaption>yoga</figcaption>
+                <figcaption>Yoga</figcaption>
             </figure></a>
 
         <a href="experience.php?id=4" class="card">
@@ -47,15 +44,15 @@
 
         <a href="experience.php?id=10" class="card"> <figure>
                 <img src="./img/picknick_lake_foto.webp" alt="experience">
-                <figcaption >Picknick</figcaption>
+                <figcaption >Picnic</figcaption>
             </figure> </a>
     </div>
 
-    <div class="genre"><h>with friends</h></div>
+    <div class="genre"><h>With Friends</h></div>
     <div class="experiencescards">
         <a href="experience.php?id=12" class="card"><figure>
                 <img src="./img/barbecue_foto.webp" alt="experience">
-                <figcaption>barbecue</figcaption>
+                <figcaption>Barbecue</figcaption>
             </figure></a>
 
         <a href="experience.php?id=6" class="card">
@@ -77,7 +74,7 @@
             </figure> </a>
     </div>
 
-    <div class="genre"><h>Daily life</h></div>
+    <div class="genre"><h>Daily Life</h></div>
     <div class="experiencescards">
         <a href="experience.php?id=2" class="card"><figure>
                 <img src="./img/office_life_foto.webp" alt="experience">
@@ -103,11 +100,6 @@
             </figure> </a>
     </div>
 
-
-
 </main>
-<footer>
-    <!-- Footer -->
-</footer>
 </body>
 </html>
