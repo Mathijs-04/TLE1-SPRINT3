@@ -1,18 +1,18 @@
 <?php
 require_once 'includes/database.php';
-/* @var mysqli $db*/
+/* @var mysqli $db */
 
-if (isset($_GET['id'])){
+if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $query = "SELECT *
     FROM experience
     WHERE id = $id";
 
     $result = mysqli_query($db, $query)
-    or die('Error: '.mysqli_error($db));
+    or die('Error: ' . mysqli_error($db));
 
     $experience = [];
-    while($row = mysqli_fetch_assoc($result)){
+    while ($row = mysqli_fetch_assoc($result)) {
         $experience[] = $row;
     }
     mysqli_close($db);
@@ -32,9 +32,9 @@ if (isset($_GET['id'])){
 <body>
 
 <nav>
-    <a href="experiences.php" class="goback"><img src="./img/go-back-2.png" alt="goback"></a >
+    <a href="experiences.php" class="goback"><img src="./img/go-back-2.png" alt="goback"></a>
     <a href="index.php" class="tohome"><img src="./img/expcorp.webp" alt="logo" class="logo"></a>
-    <a href="index.php" class="gobackindex"><img src="./img/go-back-2.png" alt="goback"></a >
+    <a href="index.php" class="gobackindex"><img src="./img/go-back-2.png" alt="goback"></a>
 
 </nav>
 <header>
@@ -45,15 +45,12 @@ if (isset($_GET['id'])){
         <div>
             <h2 class="titleExp"></h2>
         </div>
-        <div id="expImgDiv">
-            <img id="imgexp" src="img/<?= htmlentities($experience['photo']) ?>" alt="experience image">
         <div id="containerExp">
             <div>
                 <h2 class="titleExp"></h2>
             </div>
             <div id="expImgDiv">
-<!--                <img id="imgexp" src="" alt="experience image">-->
-                <img id="imgexp" src="./img/forest_walk_foto.webp" alt="forestwalk">
+                <img id="imgexp" src="img/<?= htmlentities($experience['photo']) ?>" alt="experience image">
             </div>
         </div>
         <div id="different">
