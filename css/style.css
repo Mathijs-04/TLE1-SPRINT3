@@ -40,6 +40,11 @@ header img{
     height: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 h1 {
     color: white;
     font-size: 10rem;
@@ -307,12 +312,21 @@ figure img {
     object-position: 0px 0px;
 }
 
+figcaption {
+    text-decoration: none;
+}
+
+.card {
+    width: fit-content;
+    height: auto;
+}
 
 figure {
     display: grid;
     border-radius: 1rem;
     overflow: hidden;
     cursor: pointer;
+
 }
 figure > * {
     grid-area: 1/1;
