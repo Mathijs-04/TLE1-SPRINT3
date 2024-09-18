@@ -49,9 +49,35 @@
                 <img src="./img/picknick_lake_foto.webp" alt="experience">
                 <figcaption >Picknick</figcaption>
             </figure> </a>
-
-
     </div>
+
+    <div class="genre"><h>with friends</h></div>
+    <div class="experiencescards">
+        <a href="experience.php"><figure>
+                <img src="./img/barbecue_foto.webp" alt="experience">
+                <figcaption>barbecue</figcaption>
+            </figure></a>
+
+        <a href="experience.php">
+            <figure>
+                <img src="./img/beach_foto.webp" alt="experience">
+                <figcaption>Beach</figcaption>
+            </figure>
+        </a>
+
+        <a href="experience.php"><figure>
+                <img src="./img/concert_foto.webp" alt="experience">
+                <figcaption>Concert</figcaption>
+            </figure>
+        </a>
+
+        <a href="experience.php"> <figure>
+                <img src="./img/night_out_foto.webp" alt="experience">
+                <figcaption >Night out</figcaption>
+            </figure> </a>
+    </div>
+
+
 
 </main>
 <footer>

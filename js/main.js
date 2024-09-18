@@ -29,11 +29,10 @@ function mainSecMaker(data) {
         p.innerText = data.information;
         expDiv.append(p);
         const expImgDiv = document.querySelector("#expImgDiv")
-        const expImg = document.createElement("img")
-        expImg.classList.add("expImage");
-        expImg.src = data.expImage;
-        console.log(expImg)
-        expImgDiv.appendChild(expImg);
+        const expImg = document.getElementById("imgexp")
+        let imgSrc = data.Image
+        expImg.src = `${imgSrc}`;
+        expImgDiv.append(expImg);
         const expLinkDiv = document.querySelector("#videoLink");
         const link = document.createElement("a");
         link.classList.add("expUrl");
@@ -59,6 +58,7 @@ function urlChecker(){
     }
 }
 
+// Audio Player
 function playAudio() {
     let audio = new Audio('./audio/Audio.wav');
     audio.play();
