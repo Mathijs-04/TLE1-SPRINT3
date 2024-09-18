@@ -67,12 +67,6 @@ h2 {
     font-family: "Barber", sans-serif;
 }
 
-#title {
-    color: black;
-}
-
-
-
 video {
     position: absolute;
     padding-top: 7.5rem;
@@ -164,6 +158,29 @@ nav {
 
 .expUrl {
     min-width: 10vw;
+}
+
+.context {
+    text-align: left;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    font-size: 1.5rem;
+}
+
+.containerExp {
+    position: relative;
+}
+
+.titleExp {
+    position: absolute;
+    z-index: 1;
+    font-size: 3rem;
+    top: 90%;
+    left: 3%;
+}
+
+.imgexp {
+    z-index: -1;
 }
 
 

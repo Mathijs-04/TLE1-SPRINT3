@@ -15,9 +15,9 @@
 <body>
 
 <nav>
-    <a href="experiences.php" class="goback"><img src="./img/go-back-2.png" alt="goback"></a >
+    <a href="experiences.php" class="goback"><img src="./img/go-back-2.png" alt="goback"></a>
     <a href="index.php" class="tohome"><img src="./img/expcorp.webp" alt="logo" class="logo"></a>
-    <a href="index.php" class="gobackindex"><img src="./img/go-back-2.png" alt="goback"></a >
+    <a href="index.php" class="gobackindex"><img src="./img/go-back-2.png" alt="goback"></a>
 
 </nav>
 <header>
@@ -25,11 +25,14 @@
 </header>
 <main>
     <div>
-        <div>
-            <h2 class="titleExp"></h2>
-        </div>
-        <div id="expImgDiv">
-            <img id="imgexp" src="" alt="experience image">
+        <div id="containerExp">
+            <div>
+                <h2 class="titleExp"></h2>
+            </div>
+            <div id="expImgDiv">
+<!--                <img id="imgexp" src="" alt="experience image">-->
+                <img src="./img/forest_walk_foto.webp" alt="forestwalk">
+            </div>
         </div>
         <div id="different">
             <p class="context"></p>
