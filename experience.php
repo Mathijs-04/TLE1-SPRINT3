@@ -1,5 +1,22 @@
 <?php
+require_once 'includes/database.php';
+/* @var mysqli $db*/
 
+if (isset($_GET['id'])){
+    $id = $_GET['id'];
+    $query = "SELECT *
+    FROM experience
+    WHERE id = $id";
+
+    $result = mysqli_query($db, $query)
+    or die('Error: '.mysqli_error($db));
+
+    $experience = [];
+    while($row = mysqli_fetch_assoc($result)){
+        $experience[] = $row;
+    }
+    mysqli_close($db);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
