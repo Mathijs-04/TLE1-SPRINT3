@@ -3,6 +3,20 @@ let parent;
 let audio;
 let audioPlaying = false;
 
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+        console.log('timer starts');
+        var buttonJoin = document.querySelector('.button_join');
+        if (buttonJoin) {
+            console.log("buttonJoin exists");
+            buttonJoin.classList.add('button_join_visible');
+        }
+    }, 10000); // 30 seconds
+});
+
+
 function init() {
     console.log(window.location.href);
     urlChecker();
