@@ -77,6 +77,32 @@
             </figure> </a>
     </div>
 
+    <div class="genre"><h>Daily life</h></div>
+    <div class="experiencescards">
+        <a href="experience.php?id=2" class="card"><figure>
+                <img src="./img/office_life_foto.webp" alt="experience">
+                <figcaption>Office</figcaption>
+            </figure></a>
+
+        <a href="experience.php?id=5" class="card">
+            <figure>
+                <img src="./img/morning_walk_foto.webp" alt="experience">
+                <figcaption>Morning walk</figcaption>
+            </figure>
+        </a>
+
+        <a href="experience.php?id=8" class="card"><figure>
+                <img src="./img/market_foto.webp" alt="experience">
+                <figcaption>Market</figcaption>
+            </figure>
+        </a>
+
+        <a href="experience.php?id=11" class="card"> <figure>
+                <img src="./img/bike_foto.webp" alt="experience">
+                <figcaption >Bike trip</figcaption>
+            </figure> </a>
+    </div>
+
 
 
 </main>
