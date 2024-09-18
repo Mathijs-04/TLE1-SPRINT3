@@ -1,4 +1,22 @@
 <?php
+require_once 'includes/database.php';
+/* @var mysqli $db*/
+
+if (isset($_GET['id'])){
+    $id = $_GET['id'];
+    $query = "SELECT *
+    FROM experience
+    WHERE id = $id";
+
+    $result = mysqli_query($db, $query)
+    or die('Error: '.mysqli_error($db));
+
+    $experience = [];
+    while($row = mysqli_fetch_assoc($result)){
+        $experience[] = $row;
+    }
+    mysqli_close($db);
+}
 
 ?>
 <!DOCTYPE html>
@@ -29,7 +47,7 @@
             <h2 class="titleExp"></h2>
         </div>
         <div id="expImgDiv">
-            <img id="imgexp" src="" alt="experience image">
+            <img id="imgexp" src="img/<?= htmlentities($experience['photo']) ?>" alt="experience image">
         </div>
         <div id="different">
             <p class="context"></p>

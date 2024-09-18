@@ -20,19 +20,14 @@ function AJAXRequest(location, successCallback) {
 
 function mainSecMaker(data) {
     if (Array.isArray(data)) { // Check if data is an array
-        console.log("er staat niks")
+        console.log("er staat niks");
     } else { // If data is not an array, assume it's a single experience detail
-        const h2 = document.querySelector(".titleExp")
+        const h2 = document.querySelector(".titleExp");
         h2.innerText = data.experience;
         const expDiv = document.querySelectorAll("#different");
         const p = document.querySelector(".context");
         p.innerText = data.information;
         expDiv.append(p);
-        const expImgDiv = document.querySelector("#expImgDiv")
-        const expImg = document.getElementById("imgexp")
-        let imgSrc = data.Image
-        expImg.src = `${imgSrc}`;
-        expImgDiv.append(expImg);
         const expLinkDiv = document.querySelector("#videoLink");
         const link = document.createElement("a");
         link.classList.add("expUrl");
