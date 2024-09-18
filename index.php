@@ -22,7 +22,7 @@
             <h2 class="pHome">Experience Reality</h2>
         </div>
         <video autoplay muted loop src="./video/VR-Header.mp4"></video>
-        <b class="button_join"><img src="./img/Button_export.png" alt="BUTTON" > </b>
+        <b class="button_join"><img src="./img/Button_export.png" alt="BUTTON"> </b>
     </div>
 </main>
 <footer>
