@@ -187,15 +187,16 @@ nav {
 .titleExp {
     position: absolute;
     z-index: 1;
-    font-size: 3rem;
-    top: 65%;
+    font-size: 2.5rem;
+    top: 63%;
     left: 3%;
+    font-family: Barber;
 }
 
 #imgexp {
     width: 100%;
     z-index: -1;
-    height:600px;
+    height:550px;
     object-fit: cover;
 }
 
