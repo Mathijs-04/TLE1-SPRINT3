@@ -7,12 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="./css/style.css" rel="stylesheet">
     <script src="./js/main.js"></script>
-    <title>Review</title>
+    <title>Over ons</title>
 </head>
 <body class="indexBody">
 
 <nav>
-    <img src="./img/expcorpstacked.webp" alt="logo" class="highResLogo">
+    <img src="./img/EXPCorp.webp" alt="logo" class="highResLogo">
     <div class="navlinkera">
         <a href="index.php" class="navlinks">
             <div>home</div>

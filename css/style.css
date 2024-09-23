@@ -7,3 +7,29 @@
     font-family: "Barber";
     src: url("../font/Barber.woff") format('woff');
 }
+
+html {
+    font-family: "Font", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+}
+
+.navlinkera{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navlinks{
+    margin: 10px;
+
+}
