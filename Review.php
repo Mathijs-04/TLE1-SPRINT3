@@ -8,8 +8,9 @@ $first_name = '';
 $last_name = '';
 $email = '';
 $experience = '';
-$review = '';
+$addreview = '';
 $conform= '';
+$rate='';
 
 
 
@@ -18,7 +19,8 @@ if (isset($_POST['submit'])) {
     $last_name = mysqli_escape_string($db, $_POST['last_name']);
     $email = mysqli_escape_string($db, $_POST['email']);
     $experience = mysqli_escape_string($db, $_POST['experience']);
-    $review = mysqli_escape_string($db, $_POST['review']);
+    $rate = mysqli_escape_string($db, $_POST['rate']);
+    $addreview = mysqli_escape_string($db, $_POST['review']);
 
 
 
@@ -35,27 +37,33 @@ if (isset($_POST['submit'])) {
     if ($experience == '') {
         $errors['experience'] = 'dit veld is verplicht.';
     }
-    if ($review == '') {
+    if ($rate == '') {
+        $errors['rate'] = 'dit veld is verplicht.';
+    }
+    if ($addreview == '') {
         $errors['review'] = 'dit veld is verplicht.';
     }
 
     if (empty($errors)) {
         //INSERT in DB
 
-        $query = "INSERT INTO reviews (first_name, last_name, email, experience, review)
-                VALUES ('$first_name', '$last_name', '$email' , '$experience' , '$review')";
+        $query = "INSERT INTO reviews (first_name, last_name, email, experience, rate, review)
+                VALUES ('$first_name', '$last_name', '$email' , '$experience' , '$rate' , '$addreview')";
 
         $result = mysqli_query($db, $query);
         // If query succeeded
         if ($result) {
             // Redirect to login page
             $conform = 'een review is achtergelaten voor de ' . $experience . ' ervaring, door ' . $first_name. '. ' ;
-            echo $conform;
+
+
             $first_name = '';
             $last_name = '';
             $email = '';
             $experience = '';
-            $review = '';
+            $rate='';
+            $addreview = '';
+
         } else {
             $errors['db'] = mysqli_error($db);
         }
@@ -63,9 +71,20 @@ if (isset($_POST['submit'])) {
 
 
 
+}
+$query = "SELECT * FROM reviews";
+$result = mysqli_query($db, $query)
+or die('Error '.mysqli_error($db).' with query '.$query);
 
 
+$result = mysqli_query($db, $query)
+or die('Error '.mysqli_error($db).' with query '.$query);
 
+
+$reviews = [];
+
+while($row = mysqli_fetch_assoc($result))
+{ $reviews[] = $row;
 }
 ?>
 
@@ -105,7 +124,7 @@ if (isset($_POST['submit'])) {
         <div class="names">
             <div class="questionname">
                 <label for="first_name">Voornaam:</label>
-                <input type="text" id="first_name" name="first_name" value="<?= htmlentities($first_name) ?>" placeholder="VoorNaam">
+                <input type="text" id="first_name" name="first_name" value="<?= htmlentities($first_name) ?>" placeholder="Voornaam">
                 <?= $errors['first_name'] ?? '' ?>
             </div>
             <div class="questionname">
@@ -123,7 +142,7 @@ if (isset($_POST['submit'])) {
         </div>
 
         <div class="question">
-            <label for="experience">Ervaring</label>
+            <label for="experience">Ervaring:</label>
             <select id="experience" name="experience" value="<?= htmlentities($experience) ?>">
                 <option value="barbecue">barbecue</option>
                 <option value="strand">strand</option>
@@ -133,13 +152,26 @@ if (isset($_POST['submit'])) {
                 <option value="meer">meer</option>
                 <option value="markt">markt</option>
                 <option value="wandeling">stads wandeling</option>
+                <option value="overig">overig</option>
             </select>
             <?= $errors['experience'] ?? '' ?>
         </div>
 
+        <div class="question">
+            <label for="rate">cijfer:</label>
+            <select id="rate" name="rate" value="<?= htmlentities($rate) ?>">
+                <option value="1"> 1 </option>
+                <option value="2"> 2 </option>
+                <option value="3"> 3 </option>
+                <option value="4"> 4 </option>
+                <option value="5"> 5 </option>
+            </select>
+            <?= $errors['rate'] ?? '' ?>
+        </div>
+
         <div class="open">
             <label for="review">Review:</label>
-            <textarea id="review" rows="10" name="review"><?= htmlentities($review) ?></textarea>
+            <textarea id="review" rows="4" name="review"><?= htmlentities($addreview) ?></textarea>
             <?= $errors['review'] ?? '' ?>
 
         </div>
@@ -153,6 +185,45 @@ if (isset($_POST['submit'])) {
 
         <?= htmlentities($conform) ?>
     </form>
+
+
+<div class="tabel">
+    <table class="table is-striped">
+        <thead>
+        <tr>
+            <th>naam: </th>
+            <th>ervaring </th>
+            <th>sterren</th>
+            <th>review</th>
+
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td colspan="9" class="has-text-centered"></td>
+        </tr>
+        </tfoot>
+        <tbody>
+
+
+        <?php foreach ($reviews as $index => $review) { ?>
+            <tr>
+                <td><?= $review['first_name'] ?></td>
+                <td><?= $review['experience'] ?></td>
+                <td><?= $review['rate'] ?></td>
+                <td><?= $review['review'] ?></td>
+            </tr>
+        <?php } ?>
+        </tbody>
+    </table>
+</div>
+
+    <?php foreach ($reviews as $index => $review) { ?>
+
+    <?php } ?>
+
+
+
 
 </main>
 <footer>
