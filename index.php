@@ -10,6 +10,20 @@
     <title>Home</title>
 </head>
 <body class="indexBody">
+
+<nav>
+    <img src="./img/EXPCorp.webp" alt="logo" class="navlogo">
+    <div class="navlinkera">
+        <a href="index.php" class="navlinks">home</a>
+        <a href="experiences.php" class="navlinks">ervaring</a>
+        <a href="aboutus.php" class="navlinks">over ons</a>
+        <a href="Review.php" class="navlinks">Review</a>
+
+
+    </div>
+
+</nav>
+
 <header>
     <img src="./img/expcorpstacked.webp" alt="logo" class="highResLogo">
     <img src="./img/Header.webp" alt="logo" class="homeLogo">
