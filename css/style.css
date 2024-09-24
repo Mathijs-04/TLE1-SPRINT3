@@ -54,3 +54,18 @@ nav{
     background-size:   100% 2px;
  ;
 }
+
+.homeBanner {
+    background-image: url("../img/homebanner.webp");
+    object-fit: cover;
+    height: 86vh;
+    align-content: center;
+}
+
+.homeTitle {
+    margin: 0;
+    padding-left: 5rem;
+    font-size: 5rem;
+    color: #F3F3F3;
+    -webkit-text-stroke: .1px #002242;
+}
