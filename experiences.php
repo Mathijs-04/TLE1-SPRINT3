@@ -1,3 +1,10 @@
+<?php
+
+if (isset($_POST['submit']))
+{
+    $categorie = $_POST['dropdown'];
+}
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,7 +17,6 @@
     <title>Experiences</title>
 </head>
 <body>
-
 <nav>
     <img src="./img/EXPCorp.webp" alt="logo" class="navlogo">
     <div class="navlinkera">
@@ -23,39 +29,36 @@
     </div>
 
 </nav>
-
-<header>
-</header>
-
 <main>
-    <form></form>
+    <section>
+        <h2>Experiences</h2>
+        <form action="experiences.php" method="post">
+            <label for="dropdown"></label>
+            <select name="dropdown" id="dropdown">
+                <option value="<?= $categorie ?>"><?= htmlentities($categorie)?></option>
+                <option value="Natuur">Natuur</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Reizen">Reizen</option>
+            </select>
 
-<!--    <div class="genre"><h>Relax</h></div>-->
-<!--    <div class="experiencescards">-->
-<!--        <a href="experience.php?id=7" class="card"><figure>-->
-<!--                <img src="img/yoga_foto.webp" alt="experience" class="yoga">-->
-<!--                <figcaption>Yoga</figcaption>-->
-<!--            </figure></a>-->
-<!---->
-<!--        <a href="experience.php?id=4" class="card">-->
-<!--            <figure>-->
-<!--                <img src="./img/lake_foto.webp" alt="experience">-->
-<!--                <figcaption>Lake</figcaption>-->
-<!--            </figure>-->
-<!--        </a>-->
-<!---->
-<!--        <a href="experience.php?id=1" class="card"><figure>-->
-<!--                <img src="./img/forest_walk_foto.webp" alt="experience">-->
-<!--                <figcaption>Forest</figcaption>-->
-<!--            </figure>-->
-<!--        </a>-->
-<!---->
-<!--        <a href="experience.php?id=10" class="card"> <figure>-->
-<!--                <img src="./img/picknick_lake_foto.webp" alt="experience">-->
-<!--                <figcaption >Picnic</figcaption>-->
-<!--            </figure> </a>-->
-<!--    </div>-->
-<!--</main>-->
+            <input type="submit" name="submit" value="Zoek catagorie">
+        </form>
+    </section>
+    <section id="expTaps">
+        <div class="expTap">
+            <h3></h3>
+            <a href="">Klik hier</a>
+        </div>
+        <div class="expTap">
+            <h3></h3>
+            <a href="">Klik hier</a>
+        </div>
+        <div class="expTap">
+            <h3></h3>
+            <a href="">Klik hier</a>
+        </div>
+    </section>
+</main>
 <footer>
 
 </footer>

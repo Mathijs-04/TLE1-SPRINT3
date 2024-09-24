@@ -24,12 +24,40 @@
 
 </nav>
 <main>
-<header class="homeBanner">
-    <h1 class="homeTitle">EXP Corp.</h1>
-</header>
+    <header class="homeBanner">
+        <h1 class="homeTitle">EXP Corp.</h1>
+    </header>
+    <div class="underHeader">
+        <div class="underHeaderLogo">
+            <img src="./img/expcorpshield.webp" alt="shieldimg">
+        </div>
+        <div class="intro">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut fermentum ipsum, quis viverra
+                ligula.
+                In eget orci sit amet erat vulputate scelerisque ut vel nisi. In condimentum nisi turpis, a sollicitudin
+                ipsum malesuada sit amet. Nam sit amet rutrum dolor, non sodales ipsum.</p>
+        </div>
+        <div>
+            <button class="aboutUsButton" type="button">Over Ons</button>
+        </div>
+    </div>
 </main>
 <footer>
-    <p>©EXPCORP 2073</p>
+    <div>
+        <img class="footerImg" src="./img/expcorpwhite.webp" alt="footerLogo">
+        <div class="copyright">
+            <p>©EXPCORP 2073</p>
+        </div>
+    </div>
+    <div class="footerContent">
+        <div class="legals">
+            <a href="#">Privacyverklaring</a>
+            <a href="#">Algemene voorwaarden</a>
+            <a href="#">Cookiebeleid</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
 </footer>
 </body>
 </html>
