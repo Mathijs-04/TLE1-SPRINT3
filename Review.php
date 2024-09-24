@@ -219,7 +219,7 @@ while($row = mysqli_fetch_assoc($result))
 </div>
 
     <?php foreach ($reviews as $index => $review) { ?>
-
+het werkt gewoon nog niet helemaal goed en dat is erg jammer
     <?php } ?>
 
 
