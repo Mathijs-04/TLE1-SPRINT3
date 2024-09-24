@@ -12,7 +12,7 @@
 <body class="indexBody">
 
 <nav>
-    <img src="./img/EXPCorp.webp" alt="logo" class="navlogo">
+    <img src="./img/expcorp.webp" alt="logo" class="navlogo">
     <div class="navlinkera">
         <a href="index.php" class="navlinks">home</a>
         <a href="experiences.php" class="navlinks">ervaring</a>
@@ -23,25 +23,10 @@
     </div>
 
 </nav>
-
-<header>
-    <img src="./img/expcorpstacked.webp" alt="logo" class="highResLogo">
-    <img src="./img/Header.webp" alt="logo" class="homeLogo">
-</header>
 <main>
-    <img src="./img/AudioOff.webp" alt="Audio Toggle" class="audioToggle" id="audioToggle">
-    <div>
-        <div class="headText">
-            <h1 class="pHome">EXPCorp.</h1>
-            <h2 class="pHome">Experience Reality</h2>
-        </div>
-        <video autoplay muted loop src="./video/VR-Header.mp4"></video>
-
-
-        <b class="button_join" onclick="window.location.href='experiences.php';">
-            <img src="./img/Button_export.png" alt="BUTTON" class="">
-        </b>
-    </div>
+<header class="homeBanner">
+    <h1 class="homeTitle">EXP Corp.</h1>
+</header>
 </main>
 <footer>
     <p>©EXPCORP 2073</p>
