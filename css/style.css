@@ -16,22 +16,22 @@ body {
     margin: 0;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     width: 100%;
     box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
 }
 
-.navlinkera{
+.navlinkera {
     display: flex;
     align-items: center;
     flex-direction: row;
     margin-right: 100px;
 }
 
-.navlinks{
+.navlinks {
     margin: 20px;
     padding-bottom: 5px;
     text-decoration: none;
@@ -44,15 +44,14 @@ nav{
 
 }
 
-.navlogo{
+.navlogo {
     width: auto;
     height: 100px;
     margin: 10px;
 }
 
-.navlinks:hover{
-    background-size:   100% 2px;
- ;
+.navlinks:hover {
+    background-size: 100% 2px;;
 }
 
 .homeBanner {
@@ -68,4 +67,67 @@ nav{
     font-size: 5rem;
     color: #F3F3F3;
     -webkit-text-stroke: .1px #002242;
+}
+
+.underHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    margin: 2rem 0rem;
+    justify-content: space-evenly;
+}
+
+.underHeaderLogo {
+    text-align: center;
+}
+
+.underHeaderLogo img {
+    height: 5rem;
+    width: auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    width: 50vw;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.aboutUsButton {
+    background-color: #002242;
+    color: #F3F3F3;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    height: 50vh;
+    background-color: #002242;
+    color: #F3F3F3;
+    padding: 0 10vw;
+    font-size: 1.2rem;
+}
+
+.footerImg {
+    width: 10rem;
+}
+
+.legals {
+    margin-top: 5.9rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.legals a {
+    text-decoration: none;
+    color: #F3F3F3;
 }
