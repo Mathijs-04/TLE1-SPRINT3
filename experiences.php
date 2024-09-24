@@ -12,9 +12,15 @@
 <body>
 
 <nav>
-    <a href="index.php" class="goback"><img src="./img/go-back-2.png" alt="goback"></a >
-    <a href="index.php" class="tohome"><img src="./img/expcorp.webp" alt="logo" class="logo"></a>
-    <a href="index.php" class="gobackindex"><img src="./img/go-back-2.png" alt="goback"></a >
+    <img src="./img/EXPCorp.webp" alt="logo" class="navlogo">
+    <div class="navlinkera">
+        <a href="index.php" class="navlinks">home</a>
+        <a href="experiences.php" class="navlinks">ervaring</a>
+        <a href="aboutus.php" class="navlinks">over ons</a>
+        <a href="Review.php" class="navlinks">Review</a>
+
+
+    </div>
 
 </nav>
 

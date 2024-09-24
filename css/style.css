@@ -7,3 +7,50 @@
     font-family: "Barber";
     src: url("../font/Barber.woff") format('woff');
 }
+
+html {
+    font-family: "Font", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+.navlinkera{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+.navlinks{
+    margin: 20px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #002242;
+    transition: all 0.5s ease-in;
+    background-image: linear-gradient(90deg, #002242, #002242); /* underline color */
+    background-size: 0 2px; /* vertical size of underline */
+    background-repeat: no-repeat;
+    background-position: left bottom; /* start position of underline */
+
+}
+
+.navlogo{
+    width: auto;
+    height: 100px;
+    margin: 10px;
+}
+
+.navlinks:hover{
+    background-size:   100% 2px;
+ ;
+}
