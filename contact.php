@@ -1,3 +1,23 @@
+<?php
+/** @var $db */
+require_once "includes/database.php";
+
+$first_name = '';
+$response = '';
+
+if (isset($_POST['submit'])) {
+    $first_name = $_POST['first_name'];
+    if ($first_name == 41){
+        $response= 'je kan abigail bereiken via abiailtoekimin@gmail.com';
+    } else{
+        $response= 'het antwoord '. $first_name . ' is niet goed';
+    }
+}
+
+?>
+
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,7 +27,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="./css/style.css" rel="stylesheet">
     <script src="./js/main.js"></script>
-    <title>Home</title>
+    <title>Over ons</title>
 </head>
 <body class="indexBody">
 
@@ -23,40 +43,26 @@
     </div>
 
 </nav>
-<main>
-    <header class="homeBanner">
-        <h1 class="homeTitle">EXP Corp.</h1>
-    </header>
+<header>
 
-    <div class="underHeader">
-        <div class="underHeaderLogo">
-            <img src="./img/expcorpshield.webp" alt="shieldimg">
-        </div>
-        <div class="intro">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut fermentum ipsum, quis viverra
-                ligula.
-                In eget orci sit amet erat vulputate scelerisque ut vel nisi. In condimentum nisi turpis, a sollicitudin
-                ipsum malesuada sit amet. Nam sit amet rutrum dolor, non sodales ipsum.</p>
-        </div>
-        <div>
-            <button class="aboutUsButton" type="button" onclick="window.location.href = 'aboutus.php'">Over Ons</button>
-        </div>
-    </div>
+</header>
+<main class="aboutusmain">
+    <h1 class="aboutushead1">op dit moment kan je online geen contact opnemen, voor vragen neem contact op met Abigail.</h1>
+    <p class="aboutustext">om abigail te bereiken moet je de waarde van de letters van abigail haar naam bij elkaar optellen. dus A=1 B=2 C=3 enz.
+    als je een antwoord hebt vul deze dan in het vak in.</p>
 
-    <div class="experiences">
-    <h2 class="experiencesTitle">Experiences</h2>
-        <div class="experienceArticles">
-            <article>
-                <img src="./img/tropical-beach-view.webp" alt="beach">
-            </article>
-            <article>
-                <img src="./img/forest-view.webp" alt="forest">
-            </article>
-        <div class="experiencesButton">
-            <img onclick="window.location.href = 'experiences.php'" src="./img/goexperiences.png" alt="goExperiences">
+
+
+    <form action="" method="post">
+        <div class="question">
+            <label for="first_name">Voornaam:</label>
+            <input type="text" id="first_name" name="first_name" value="" >
+
         </div>
-        </div>
-    </div>
+        <button class=confirm type="submit" name="submit">submit</button>
+        <?= $response ?? '' ?>
+    </form>
+
 </main>
 <footer>
     <div>
