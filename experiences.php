@@ -3,6 +3,8 @@
 if (isset($_POST['submit']))
 {
     $categorie = $_POST['dropdown'];
+} else {
+    $categorie = '';
 }
 ?>
 <!doctype html>
@@ -45,18 +47,7 @@ if (isset($_POST['submit']))
         </form>
     </section>
     <section id="expTaps">
-        <div class="expTap">
-            <h3></h3>
-            <a href="">Klik hier</a>
-        </div>
-        <div class="expTap">
-            <h3></h3>
-            <a href="">Klik hier</a>
-        </div>
-        <div class="expTap">
-            <h3></h3>
-            <a href="">Klik hier</a>
-        </div>
+
     </section>
 </main>
 <footer>
