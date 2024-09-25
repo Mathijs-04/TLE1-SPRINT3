@@ -3,13 +3,9 @@
     src: url('../font/Font.woff') format('woff');
 }
 
-@font-face {
-    font-family: "Barber";
-    src: url("../font/Barber.woff") format('woff');
-}
-
 html {
     font-family: "Font", sans-serif;
+    background-color: #F3F3F3;
 }
 
 body {
@@ -73,7 +69,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40vh;
+    height: 50vh;
     margin: 2rem 0rem;
     justify-content: space-evenly;
 }
@@ -103,6 +99,38 @@ nav {
     border: none;
     border-radius: 5px;
     padding: .5rem 1rem;
+}
+
+.experiences {
+    height: 75vh;
+    align-content: center;
+    margin-bottom: 3rem;
+}
+
+.experiencesButton {
+    align-content: center;
+}
+
+.experiencesButton img {
+    height: 5rem;
+}
+
+.experiencesTitle {
+    font-size: 2.5rem;
+    padding-left: 9rem;
+}
+
+.experienceArticles {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.experienceArticles article img {
+    height: 45vh;
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 50px;
 }
 
 footer {

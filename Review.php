@@ -105,9 +105,9 @@ while($row = mysqli_fetch_assoc($result))
 <nav>
     <img src="./img/expcorp.webp" alt="logo" class="navlogo">
     <div class="navlinkera">
-        <a href="index.php" class="navlinks">home</a>
-        <a href="experiences.php" class="navlinks">ervaring</a>
-        <a href="aboutus.php" class="navlinks">over ons</a>
+        <a href="index.php" class="navlinks">Home</a>
+        <a href="experiences.php" class="navlinks">Ervaring</a>
+        <a href="aboutus.php" class="navlinks">Over Ons</a>
         <a href="Review.php" class="navlinks">Review</a>
 
 
