@@ -34,7 +34,7 @@ if (isset($_POST['submit']))
 <main>
     <section>
         <h2>Experiences</h2>
-        <form action="experiences.php" method="post">
+        <form action="" method="post">
             <label for="dropdown"></label>
             <select name="dropdown" id="dropdown">
                 <option value="<?= $categorie ?>"><?= htmlentities($categorie)?></option>
@@ -47,6 +47,16 @@ if (isset($_POST['submit']))
         </form>
     </section>
     <section id="expTaps">
+        <div>
+            <h3>Natuur</h3>
+            <ul>
+                <li><p></p><a></a></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+
 
     </section>
 </main>

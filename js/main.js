@@ -2,8 +2,9 @@ window.addEventListener('load', init);
 let parent;
 let audio;
 let audioPlaying = false;
-let databaseCall = "./webservice/index.php"
+let databaseCall = "./index.php";
 
+let exp;
 
 document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
@@ -19,7 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function init() {
     console.log(window.location.href);
-    AJAXRequest(databaseCall, expCardHandler())
+    AJAXRequest(databaseCall, expCardHandler)
+
 }
 
 function AJAXRequest(location, successCallback) {
@@ -28,22 +30,32 @@ function AJAXRequest(location, successCallback) {
             if (!response.ok) {
                 throw new Error(response.statusText);
             }
-            console.log("Information fetched");
+
             return response.json();
         })
         .then(successCallback)
-        // .catch(errorHandler);
+        .catch(errorHandler);
 }
 function errorHandler() {
     console.log('Geen informatie opgehaald')
 }
 
-function expCardHandler(category){
+function expCardHandler(data){
+    console.log(data);
+
     const expBatch = document.querySelector("#expTaps");
     const expUl = document.createElement("ul");
-    category.forEach(exp in category){
-        const expLi = document.createElement()
+
+    for (exp of data){
+        console.log(exp)
+        const expListItem = document.createElement("li");
+        expListItem.innerText = exp.experience;
+        console.log(exp);
+        expUl.appendChild(expListItem);
     }
+    expBatch.appendChild(expUl);
+
+
 }
 
 
