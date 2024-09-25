@@ -2,7 +2,7 @@ window.addEventListener('load', init);
 let parent;
 let audio;
 let audioPlaying = false;
-
+let databaseCall = "./includes/database.php"
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -19,8 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function init() {
     console.log(window.location.href);
-    urlChecker();
-    document.getElementById('audioToggle').addEventListener('click', toggleAudio);
+    AJAXRequest(databaseCall, expCardHandler())
 }
 
 function AJAXRequest(location, successCallback) {
@@ -35,41 +34,15 @@ function AJAXRequest(location, successCallback) {
         .catch(errorHandler);
     console.log("Information fetched")
 }
-
-function mainSecMaker(data) {
-    if (Array.isArray(data)) { // Check if data is an array
-        console.log("er staat niks");
-    } else { // If data is not an array, assume it's a single experience detail
-        const h2 = document.querySelector(".titleExp");
-        h2.innerText = data.experience;
-        const expDiv = document.querySelectorAll("#different");
-        const p = document.querySelector(".context");
-        p.innerText = data.information;
-        expDiv.append(p);
-        const expLinkDiv = document.querySelector("#videoLink");
-        const link = document.createElement("a");
-        link.classList.add("expUrl");
-        link.innerHTML = data.Expurl;
-        expLinkDiv.append(link);
-    }
-}
-
-
 function errorHandler() {
     console.log('Geen informatie opgehaald')
 }
 
-function urlChecker() {
-    const url = new URL(decodeURIComponent(window.location.href));
-    const id = url.searchParams.get('id');
-    parent = id;
-    if (id === undefined || id === null) {
-        console.log('No ID found');
-    } else {
-        console.log(`ID found: ${parent}`);
-        AJAXRequest(`data.php?id=${parent}`, mainSecMaker);
-    }
+function expCardHandler(categories){
+    console.log(categories);
 }
+
+
 function toggleAudio() {
     console.log("Audio Toggled");
     let audioImage = document.getElementById('audioToggle');
