@@ -50,7 +50,7 @@
                 <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT2/experience.php?id=1'" src="./img/tropical-beach-view.webp" alt="beach">
             </article>
             <article>
-                <img src="./img/forest-view.webp" alt="forest">
+                <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT2/experience.php?id=3'" src="./img/forest-view.webp" alt="forest">
             </article>
             <div class="experiencesButton">
                 <img onclick="window.location.href = 'experiences.php'" src="./img/goexperiences.png"
