@@ -14,9 +14,9 @@
 <nav>
     <img src="./img/expcorp.webp" alt="logo" class="navlogo">
     <div class="navlinkera">
-        <a href="index.php" class="navlinks">home</a>
-        <a href="experiences.php" class="navlinks">ervaring</a>
-        <a href="aboutus.php" class="navlinks">over ons</a>
+        <a href="index.php" class="navlinks">Home</a>
+        <a href="experiences.php" class="navlinks">Ervaring</a>
+        <a href="aboutus.php" class="navlinks">Over Ons</a>
         <a href="Review.php" class="navlinks">Review</a>
 
 
@@ -44,14 +44,17 @@
     </div>
 
     <div class="experiences">
-        <h2>Experiences</h2>
-        <div>
+    <h2 class="experiencesTitle">Experiences</h2>
+        <div class="experienceArticles">
             <article>
-                <img src="./img/" alt="">
+                <img src="./img/tropical-beach-view.webp" alt="beach">
             </article>
             <article>
-
+                <img src="./img/forest-view.webp" alt="forest">
             </article>
+        <div class="experiencesButton">
+            <img onclick="window.location.href = 'experiences.php'" src="./img/goexperiences.png" alt="goExperiences">
+        </div>
         </div>
     </div>
 </main>
