@@ -80,15 +80,15 @@ if (isset($_POST['submit']))
     <div>
         <img class="footerImg" src="./img/expcorpwhite.webp" alt="footerLogo">
         <div class="copyright">
-            <p>©EXPCORP 2073</p>
+            <p>© EXPCORP 2024</p>
         </div>
     </div>
     <div class="footerContent">
         <div class="legals">
-            <a href="#">Privacyverklaring</a>
-            <a href="#">Algemene voorwaarden</a>
-            <a href="#">Cookiebeleid</a>
-            <a href="#">Contact</a>
+            <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Privacyverklaring</a>
+            <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Algemene voorwaarden</a>
+            <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Cookiebeleid</a>
+            <a href="contact.php">Contact</a>
         </div>
     </div>
 </footer>
