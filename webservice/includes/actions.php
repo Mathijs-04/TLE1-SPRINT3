@@ -6,29 +6,7 @@ function getDishes()
 {
     return [
         [
-            "id" => 1,
-            "name" => "Pizza",
-            "kitchen" => "Italian",
-        ],
-        [
-            "id" => 2,
-            "name" => "Kale",
-            "kitchen" => "Dutch",
-        ],
-        [
-            "id" => 3,
-            "name" => "Lasagna",
-            "kitchen" => "Italian",
-        ],
-        [
-            "id" => 4,
-            "name" => "Kebab",
-            "kitchen" => "Turkish",
-        ],
-        [
-            "id" => 5,
-            "name" => "Paella",
-            "kitchen" => "Spanish",
+
         ]
     ];
 }
