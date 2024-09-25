@@ -1,8 +1,6 @@
 <?php
-
 /** @var $db */
 require_once "includes/database.php";
-
 
 $first_name = '';
 $last_name = '';
@@ -12,8 +10,6 @@ $addreview = '';
 $conform= '';
 $rate='';
 
-
-
 if (isset($_POST['submit'])) {
     $first_name = mysqli_escape_string($db, $_POST['first_name']);
     $last_name = mysqli_escape_string($db, $_POST['last_name']);
@@ -21,8 +17,6 @@ if (isset($_POST['submit'])) {
     $experience = mysqli_escape_string($db, $_POST['experience']);
     $rate = mysqli_escape_string($db, $_POST['rate']);
     $addreview = mysqli_escape_string($db, $_POST['review']);
-
-
 
     $errors = [];
     if ($first_name == '') {
@@ -46,16 +40,13 @@ if (isset($_POST['submit'])) {
 
     if (empty($errors)) {
         //INSERT in DB
-
         $query = "INSERT INTO reviews (first_name, last_name, email, experience, rate, review)
                 VALUES ('$first_name', '$last_name', '$email' , '$experience' , '$rate' , '$addreview')";
-
         $result = mysqli_query($db, $query);
         // If query succeeded
         if ($result) {
             // Redirect to login page
             $conform = 'een review is achtergelaten voor de ' . $experience . ' ervaring, door ' . $first_name. '. ' ;
-
 
             $first_name = '';
             $last_name = '';
@@ -68,18 +59,13 @@ if (isset($_POST['submit'])) {
             $errors['db'] = mysqli_error($db);
         }
     }
-
-
-
 }
 $query = "SELECT * FROM reviews";
 $result = mysqli_query($db, $query)
 or die('Error '.mysqli_error($db).' with query '.$query);
 
-
 $result = mysqli_query($db, $query)
 or die('Error '.mysqli_error($db).' with query '.$query);
-
 
 $reviews = [];
 
@@ -115,12 +101,9 @@ while($row = mysqli_fetch_assoc($result))
 
 </nav>
 <header>
-
 </header>
 <main>
-
     <form action="" method="post">
-
         <div class="names">
             <div class="questionname">
                 <label for="first_name">Voornaam:</label>
@@ -138,7 +121,6 @@ while($row = mysqli_fetch_assoc($result))
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" value="<?= htmlentities($email) ?>" placeholder="e-mail">
             <?= $errors['email'] ?? '' ?>
-
         </div>
 
         <div class="question">
