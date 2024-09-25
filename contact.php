@@ -55,7 +55,7 @@ if (isset($_POST['submit'])) {
 
     <form action="" method="post">
         <div class="question">
-            <label for="first_name">Voornaam:</label>
+            <label for="first_name">Secret Number:</label>
             <input type="text" id="first_name" name="first_name" value="" >
 
         </div>

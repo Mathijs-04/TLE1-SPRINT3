@@ -141,7 +141,7 @@ while($row = mysqli_fetch_assoc($result))
 
         <div class="question">
             <label for="rate">cijfer:</label>
-            <select id="rate" name="rate" value="<?= htmlentities($rate) ?>">
+            <select id="rate" name="rate" value="<?= htmlentities($rate)?>">
                 <option value="1"> 1 </option>
                 <option value="2"> 2 </option>
                 <option value="3"> 3 </option>
@@ -191,7 +191,7 @@ while($row = mysqli_fetch_assoc($result))
     <div>
         <img class="footerImg" src="./img/expcorpwhite.webp" alt="footerLogo">
         <div class="copyright">
-            <p>©EXPCORP 2073</p>
+            <p>© EXPCORP 2024</p>
         </div>
     </div>
     <div class="footerContent">
