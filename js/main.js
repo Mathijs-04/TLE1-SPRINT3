@@ -30,7 +30,6 @@ function AJAXRequest(location, successCallback) {
             if (!response.ok) {
                 throw new Error(response.statusText);
             }
-
             return response.json();
         })
         .then(successCallback)
@@ -40,22 +39,18 @@ function errorHandler() {
     console.log('Geen informatie opgehaald')
 }
 
-function expCardHandler(data){
-    console.log(data);
-
-    const expBatch = document.querySelector("#expTaps");
-    const expUl = document.createElement("ul");
-
-    for (exp of data){
-        const expListItem = document.createElement("li");
-        expListItem.innerText = exp.experience;
-        console.log(exp);
-        expUl.appendChild(expListItem);
-    }
-    expBatch.appendChild(expUl);
-
-
-}
+// function expCardHandler(data){
+//     const expBatch = document.querySelector("#expTaps");
+//     const expUl = document.createElement("ul");
+//
+//     for (exp of data){
+//         const expListItem = document.createElement("li");
+//         expListItem.innerText = exp.experience;
+//
+//         expUl.appendChild(expListItem);
+//     }
+//     expBatch.appendChild(expUl);
+// }
 
 
 function toggleAudio() {
