@@ -50,9 +50,25 @@ if (isset($_POST['submit']))
         <div>
             <h3>Natuur</h3>
             <ul>
-                <li><p></p><a></a></li>
-                <li></li>
-                <li></li>
+                <li><p>Mystieke Schoonheid van Navagio</p><a href="experience.php?id=1">Klik hier</a></li>
+                <li><p>Verken de Trinity in Shasta-Trinity National Forest</p><a href="experience.php?id=2">Klik hier</a></li>
+                <li><p>Panoramisch Uitzicht over Zakynthos</p><a href="experience.php?id=3">Klik hier</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Entertaiment</h3>
+            <ul>
+                <li><p>Mystieke Schoonheid van Navagio</p><a href="experience.php?id=1">Klik hier</a></li>
+                <li><p>Verken de Trinity in Shasta-Trinity National Forest</p><a href="experience.php?id=2">Klik hier</a></li>
+                <li><p>Panoramisch Uitzicht over Zakynthos</p><a href="experience.php?id=3">Klik hier</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Natuur</h3>
+            <ul>
+                <li><p>Mystieke Schoonheid van Navagio</p><a href="experience.php?id=1">Klik hier</a></li>
+                <li><p>Verken de Trinity in Shasta-Trinity National Forest</p><a href="experience.php?id=2">Klik hier</a></li>
+                <li><p>Panoramisch Uitzicht over Zakynthos</p><a href="experience.php?id=3">Klik hier</a></li>
             </ul>
         </div>
 

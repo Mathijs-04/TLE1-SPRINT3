@@ -6,7 +6,29 @@ function getDishes()
 {
     return [
         [
-
+            "id" => 1,
+            "name" => "Pizza",
+            "kitchen" => "Italian",
+        ],
+        [
+            "id" => 2,
+            "name" => "Kale",
+            "kitchen" => "Dutch",
+        ],
+        [
+            "id" => 3,
+            "name" => "Lasagna",
+            "kitchen" => "Italian",
+        ],
+        [
+            "id" => 4,
+            "name" => "Kebab",
+            "kitchen" => "Turkish",
+        ],
+        [
+            "id" => 5,
+            "name" => "Paella",
+            "kitchen" => "Spanish",
         ]
     ];
 }
@@ -18,7 +40,7 @@ function getDishes()
 function getDishDetails($id)
 {
     $tags = [
-        "Natuur" => [
+        1 => [
             "experience" => "Mystieke Schoonheid van Navagio",
             "Image" => "./img/dforest_walk_foto.webp",
             "information" => "Beleef een prachtige reis naar een bijzondere plek, zonder je huis te verlaten. Stel je voor dat je op het strand staat van een baai op het eiland Zakynthos in Griekenland. Het heldere, blauwe water schittert, hoge rotsen omringen je, en in het zand ligt een oud scheepswrak. Met deze VR-ervaring kun je de rustige schoonheid van 'Shipwreck Bay' zelf ontdekken. Hoor het zachte geluid van de golven en zie de zon die schittert op het water. Geniet van de rust en de natuur, alsof je er echt bent. Deze ervaring is ideaal om even te ontspannen en iets nieuws te beleven. Maak een rustige reis naar dit mooie landschap, zonder dat je je huis uit hoeft..",

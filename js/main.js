@@ -2,7 +2,7 @@ window.addEventListener('load', init);
 let parent;
 let audio;
 let audioPlaying = false;
-let databaseCall = "./index.php";
+let databaseCall = "./webservice/index.php";
 
 let exp;
 
@@ -47,7 +47,6 @@ function expCardHandler(data){
     const expUl = document.createElement("ul");
 
     for (exp of data){
-        console.log(exp)
         const expListItem = document.createElement("li");
         expListItem.innerText = exp.experience;
         console.log(exp);
