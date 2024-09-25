@@ -44,7 +44,7 @@
     <div>
         <img class="footerImg" src="./img/expcorpwhite.webp" alt="footerLogo">
         <div class="copyright">
-            <p>©EXPCORP 2073</p>
+            <p>© EXPCORP 2024</p>
         </div>
     </div>
     <div class="footerContent">

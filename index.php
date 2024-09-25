@@ -33,10 +33,10 @@
             <img src="./img/expcorpshield.webp" alt="shieldimg">
         </div>
         <div class="intro">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut fermentum ipsum, quis viverra
-                ligula.
-                In eget orci sit amet erat vulputate scelerisque ut vel nisi. In condimentum nisi turpis, a sollicitudin
-                ipsum malesuada sit amet. Nam sit amet rutrum dolor, non sodales ipsum.</p>
+            <p>EXPCorp gebruikt virtual reality om het leven van ouderen in verzorgingstehuizen te verrijken. We bieden
+                hen nieuwe mogelijkheden en avonturen buiten hun dagelijkse omgeving. Ons doel is om leeftijd geen
+                beperking te laten zijn in het ontdekken van de wereld. Zo creëren we bijzondere momenten voor
+                senioren.</p>
         </div>
         <div>
             <button class="aboutUsButton" type="button" onclick="window.location.href = 'aboutus.php'">Over Ons</button>
@@ -44,7 +44,7 @@
     </div>
 
     <div class="experiences">
-    <h2 class="experiencesTitle">Experiences</h2>
+        <h2 class="experiencesTitle">Experiences</h2>
         <div class="experienceArticles">
             <article>
                 <img src="./img/tropical-beach-view.webp" alt="beach">
@@ -52,9 +52,10 @@
             <article>
                 <img src="./img/forest-view.webp" alt="forest">
             </article>
-        <div class="experiencesButton">
-            <img onclick="window.location.href = 'experiences.php'" src="./img/goexperiences.png" alt="goExperiences">
-        </div>
+            <div class="experiencesButton">
+                <img onclick="window.location.href = 'experiences.php'" src="./img/goexperiences.png"
+                     alt="goExperiences">
+            </div>
         </div>
     </div>
 </main>
@@ -62,7 +63,7 @@
     <div>
         <img class="footerImg" src="./img/expcorpwhite.webp" alt="footerLogo">
         <div class="copyright">
-            <p>©EXPCORP 2073</p>
+            <p>© EXPCORP 2024</p>
         </div>
     </div>
     <div class="footerContent">
