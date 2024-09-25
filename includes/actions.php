@@ -1,11 +1,15 @@
 <?php
+/**
+ * @param $
+ * @return array
+ */
 function experienceDetails(): array
 {
     $tags = [
         "Natuur" =>
             [
             "experience" => "Forest Walk: Enjoy the Outdoors",
-            "Image" => "./img/dforest_walk_foto.webp",
+            "Image" => "./img/forest_walk_foto.webp",
             "information" => "Experience the calm of a forest walk in our Forest Walk Experience. Stroll along a soft path surrounded by tall trees and green leaves. As you walk, you can hear the gentle song of birds and feel the fresh air on your skin. The sun shines through the branches, creating a pleasant atmosphere. This is an ideal way to relax and simply enjoy the natural beauty around you. It’s the most ordinary experience, but one that gives you the chance to unwind and recharge.",
             "Expurl" => "",
         ],
