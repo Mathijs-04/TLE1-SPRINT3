@@ -141,7 +141,7 @@ while($row = mysqli_fetch_assoc($result))
 
         <div class="question">
             <label for="rate">cijfer:</label>
-            <select id="rate" name="rate" value="<?= htmlentities($rate) ?>">
+            <select id="rate" name="rate" value="<?= htmlentities($rate)?>">
                 <option value="1"> 1 </option>
                 <option value="2"> 2 </option>
                 <option value="3"> 3 </option>
@@ -196,10 +196,10 @@ while($row = mysqli_fetch_assoc($result))
     </div>
     <div class="footerContent">
         <div class="legals">
-            <a href="#">Privacyverklaring</a>
-            <a href="#">Algemene voorwaarden</a>
-            <a href="#">Cookiebeleid</a>
-            <a href="#">Contact</a>
+            <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Privacyverklaring</a>
+            <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Algemene voorwaarden</a>
+            <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Cookiebeleid</a>
+            <a href="contact.php">Contact</a>
         </div>
     </div>
 </footer>

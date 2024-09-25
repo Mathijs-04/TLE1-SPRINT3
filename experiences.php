@@ -3,6 +3,8 @@
 if (isset($_POST['submit']))
 {
     $categorie = $_POST['dropdown'];
+} else {
+    $categorie = '';
 }
 ?>
 <!doctype html>
@@ -45,18 +47,7 @@ if (isset($_POST['submit']))
         </form>
     </section>
     <section id="expTaps">
-        <div class="expTap">
-            <h3></h3>
-            <a href="">Klik hier</a>
-        </div>
-        <div class="expTap">
-            <h3></h3>
-            <a href="">Klik hier</a>
-        </div>
-        <div class="expTap">
-            <h3></h3>
-            <a href="">Klik hier</a>
-        </div>
+
     </section>
 </main>
 <footer>
@@ -68,10 +59,10 @@ if (isset($_POST['submit']))
     </div>
     <div class="footerContent">
         <div class="legals">
-            <a href="#">Privacyverklaring</a>
-            <a href="#">Algemene voorwaarden</a>
-            <a href="#">Cookiebeleid</a>
-            <a href="#">Contact</a>
+            <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Privacyverklaring</a>
+            <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Algemene voorwaarden</a>
+            <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Cookiebeleid</a>
+            <a href="contact.php">Contact</a>
         </div>
     </div>
 </footer>
