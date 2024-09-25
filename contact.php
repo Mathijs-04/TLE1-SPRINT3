@@ -1,7 +1,4 @@
 <?php
-/** @var $db */
-require_once "includes/database.php";
-
 $first_name = '';
 $response = '';
 
