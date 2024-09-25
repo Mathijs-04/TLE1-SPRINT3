@@ -34,7 +34,7 @@ if (isset($_POST['submit']))
 <main>
     <section>
         <h2>Experiences</h2>
-        <form action="experiences.php" method="post">
+        <form action="" method="post">
             <label for="dropdown"></label>
             <select name="dropdown" id="dropdown">
                 <option value="<?= $categorie ?>"><?= htmlentities($categorie)?></option>
@@ -47,6 +47,32 @@ if (isset($_POST['submit']))
         </form>
     </section>
     <section id="expTaps">
+        <div>
+            <h3>Natuur</h3>
+            <ul>
+                <li><p>Mystieke Schoonheid van Navagio</p><a href="experience.php?id=1">Klik hier</a></li>
+                <li><p>Verken de Trinity in Shasta-Trinity National Forest</p><a href="experience.php?id=2">Klik hier</a></li>
+                <li><p>Panoramisch Uitzicht over Zakynthos</p><a href="experience.php?id=3">Klik hier</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Entertaiment</h3>
+            <ul>
+                <li><p>Ontdek de Kunstzalen van Statens Museum</p><a href="experience.php?id=4">Klik hier</a></li>
+                <li><p>Verken de Pracht van het Bellagio</p><a href="experience.php?id=5">Klik hier</a></li>
+                <li><p>Verken Inside Pionir</p><a href="experience.php?id=6">Klik hier</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Reizen</h3>
+            <ul>
+                <li><p>Een Virtuele Reis door een Dynamische Haven</p><a href="experience.php?id=7">Klik hier</a></li>
+                <li><p>Ontdek Parijs</p><a href="experience.php?id=8">Klik hier</a></li>
+                <li><p>Ontdek de Schoonheid van een Traditionele Japanse Tuin</p><a href="experience.php?id=9">Klik hier</a></li>
+            </ul>
+        </div>
+
+
 
     </section>
 </main>
