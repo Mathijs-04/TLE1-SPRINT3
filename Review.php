@@ -103,7 +103,7 @@ while($row = mysqli_fetch_assoc($result))
 <body class="indexBody">
 
 <nav>
-    <img src="./img/EXPCorp.webp" alt="logo" class="navlogo">
+    <img src="./img/expcorp.webp" alt="logo" class="navlogo">
     <div class="navlinkera">
         <a href="index.php" class="navlinks">home</a>
         <a href="experiences.php" class="navlinks">ervaring</a>
@@ -178,7 +178,7 @@ while($row = mysqli_fetch_assoc($result))
 
         <div class="checkbox1">
             <input type="checkbox" id="accept" name="accept" required>
-            <label for="accept">Ik ga akkoord met de algemene voorwaarden</label>
+            <label for="accept">Ik ga akkoord met de <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">algemene voorwaarden</a></label>
         </div>
 
         <button class=confirm type="submit" name="submit">submit</button>
@@ -187,47 +187,39 @@ while($row = mysqli_fetch_assoc($result))
     </form>
 
 
-<div class="tabel">
-    <table class="table is-striped">
-        <thead>
-        <tr>
-            <th>naam: </th>
-            <th>ervaring </th>
-            <th>sterren</th>
-            <th>review</th>
-
-        </tr>
-        </thead>
-        <tfoot>
-        <tr>
-            <td colspan="9" class="has-text-centered"></td>
-        </tr>
-        </tfoot>
-        <tbody>
-
-
+    <div class="cardoverview">
         <?php foreach ($reviews as $index => $review) { ?>
-            <tr>
-                <td><?= $review['first_name'] ?></td>
-                <td><?= $review['experience'] ?></td>
-                <td><?= $review['rate'] ?></td>
-                <td><?= $review['review'] ?></td>
-            </tr>
+        <div class="card">
+            <div class="cardstar">
+                <h1><?php for ($x = 0; $x <=$review['rate'] - 1; $x++){
+                        echo "<span style='font-size:40px;'>&#9734;</span>";
+                    }?></h1>
+                <h1> <?= $review['experience'] ?></h1>
+            </div>
+            <p><?= $review['review'] ?></p>
+            <p>~<?= $review['first_name'] ?>~</p>
+        </div>
         <?php } ?>
-        </tbody>
-    </table>
-</div>
-
-    <?php foreach ($reviews as $index => $review) { ?>
-
-    <?php } ?>
-
+    </div>
 
 
 
 </main>
 <footer>
-    <p>©EXPCORP 2073</p>
+    <div>
+        <img class="footerImg" src="./img/expcorpwhite.webp" alt="footerLogo">
+        <div class="copyright">
+            <p>©EXPCORP 2073</p>
+        </div>
+    </div>
+    <div class="footerContent">
+        <div class="legals">
+            <a href="#">Privacyverklaring</a>
+            <a href="#">Algemene voorwaarden</a>
+            <a href="#">Cookiebeleid</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
 </footer>
 </body>
 </html>

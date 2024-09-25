@@ -27,6 +27,7 @@
     <header class="homeBanner">
         <h1 class="homeTitle">EXP Corp.</h1>
     </header>
+
     <div class="underHeader">
         <div class="underHeaderLogo">
             <img src="./img/expcorpshield.webp" alt="shieldimg">
@@ -38,7 +39,19 @@
                 ipsum malesuada sit amet. Nam sit amet rutrum dolor, non sodales ipsum.</p>
         </div>
         <div>
-            <button class="aboutUsButton" type="button">Over Ons</button>
+            <button class="aboutUsButton" type="button" onclick="window.location.href = 'aboutus.php'">Over Ons</button>
+        </div>
+    </div>
+
+    <div class="experiences">
+        <h2>Experiences</h2>
+        <div>
+            <article>
+                <img src="./img/" alt="">
+            </article>
+            <article>
+
+            </article>
         </div>
     </div>
 </main>
@@ -57,7 +70,6 @@
             <a href="#">Contact</a>
         </div>
     </div>
-
 </footer>
 </body>
 </html>
