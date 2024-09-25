@@ -12,7 +12,7 @@
 <body class="indexBody">
 
 <nav>
-    <img src="./img/EXPCorp.webp" alt="logo" class="navlogo">
+    <img src="./img/expcorp.webp" alt="logo" class="navlogo">
     <div class="navlinkera">
         <a href="index.php" class="navlinks">home</a>
         <a href="experiences.php" class="navlinks">ervaring</a>
@@ -769,7 +769,20 @@
 
 </main>
 <footer>
-    <p>©EXPCORP 2073</p>
+    <div>
+        <img class="footerImg" src="./img/expcorpwhite.webp" alt="footerLogo">
+        <div class="copyright">
+            <p>©EXPCORP 2073</p>
+        </div>
+    </div>
+    <div class="footerContent">
+        <div class="legals">
+            <a href="#">Privacyverklaring</a>
+            <a href="#">Algemene voorwaarden</a>
+            <a href="#">Cookiebeleid</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
