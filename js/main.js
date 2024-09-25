@@ -2,7 +2,7 @@ window.addEventListener('load', init);
 let parent;
 let audio;
 let audioPlaying = false;
-let databaseCall = "./includes/database.php"
+let databaseCall = "./webservice/index.php"
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -28,18 +28,22 @@ function AJAXRequest(location, successCallback) {
             if (!response.ok) {
                 throw new Error(response.statusText);
             }
+            console.log("Information fetched");
             return response.json();
         })
         .then(successCallback)
-        .catch(errorHandler);
-    console.log("Information fetched")
+        // .catch(errorHandler);
 }
 function errorHandler() {
     console.log('Geen informatie opgehaald')
 }
 
-function expCardHandler(categories){
-    console.log(categories);
+function expCardHandler(category){
+    const expBatch = document.querySelector("#expTaps");
+    const expUl = document.createElement("ul");
+    category.forEach(exp in category){
+        const expLi = document.createElement()
+    }
 }
 
 
