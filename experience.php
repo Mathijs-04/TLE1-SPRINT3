@@ -5,21 +5,21 @@ require_once 'includes/actions.php';
 //{
 //    $experiences = [
 //        1 => [
-//            "experience" => "Forest Walk: Enjoy the Outdoors",
+//            "experience" => "Mystieke Schoonheid van Navagio",
 //            "Image" => "./img/dforest_walk_foto.webp",
-//            "information" => "Experience the calm of a forest walk in our Forest Walk Experience. Stroll along a soft path surrounded by tall trees and green leaves. As you walk, you can hear the gentle song of birds and feel the fresh air on your skin. The sun shines through the branches, creating a pleasant atmosphere. This is an ideal way to relax and simply enjoy the natural beauty around you. It’s the most ordinary experience, but one that gives you the chance to unwind and recharge.",
+//            "information" => "Beleef een prachtige reis naar een bijzondere plek, zonder je huis te verlaten. Stel je voor dat je op het strand staat van een baai op het eiland Zakynthos in Griekenland. Het heldere, blauwe water schittert, hoge rotsen omringen je, en in het zand ligt een oud scheepswrak. Met deze VR-ervaring kun je de rustige schoonheid van "Shipwreck Bay" zelf ontdekken. Hoor het zachte geluid van de golven en zie de zon die schittert op het water. Geniet van de rust en de natuur, alsof je er echt bent. Deze ervaring is ideaal om even te ontspannen en iets nieuws te beleven. Maak een rustige reis naar dit mooie landschap, zonder dat je je huis uit hoeft..",
 //            "Expurl" => "",
 //        ],
 //        2 => [
-//            "experience" => "Office Life: Start Your Day Right",
+//            "experience" => "Verken de Trinity in Shasta-Trinity National Forest",
 //            "Image" => "./img/doffice_life_foto.webp",
-//            "information" => "Start your day in a stylish, modern office space with a clear view of the city in our Office Life Experience. You grab a cup of coffee from a good coffee machine and sit down at your desk, ready to start your work. The space is quiet and organized, perfect for focusing on your tasks. It’s a simple, yet efficient work environment that helps you start your day well and stay productive. Enjoy the simplicity and focus this setting offers.",
+//            "information" => "Stap in een wereld van rust en natuur, waar je de schoonheid van de Trinity-rivier kunt ervaren zonder je huis te verlaten. Deze kalme rivier slingert door het Shasta-Trinity National Forest in Californië, omringd door uitgestrekte bossen en groene heuvels. Met deze VR-ervaring kun je genieten van de serene waterstromen, de frisse lucht en de rustige geluiden van de natuur. Voel je alsof je langs de rivier wandelt, terwijl het water zachtjes kabbelt en de bomen zacht ruisen in de wind. Of je nu even wilt ontsnappen aan de drukte of gewoon wilt genieten van een vredig moment in de natuur, deze ervaring biedt je een ontspannen reis naar een prachtige plek. Ontdek de rust van de Trinity-rivier, allemaal vanuit het comfort van je eigen huis.",
 //            "Expurl" => "",
 //        ],
 //        3 => [
-//            "experience" => "Night Out with Friends: A Relaxed Evening Together",
+//            "experience" => "Panoramisch Uitzicht over Zakynthos",
 //            "Image" => "./img/dnight_out_foto.webp",
-//            "information" => "Enjoy a relaxed evening with friends on a rooftop terrace with a view of the city in our Night Out with Friends Experience. It’s an ordinary evening where you laugh, have conversations, and enjoy a drink with your friends while taking in the view and the atmosphere. The soft city lights and the relaxed environment make it a pleasant way to spend time together. It’s a simple, but delightful way to enjoy the fun and warmth of a night out.",
+//            "information" => "Beleef een magische zonsondergang op het prachtige eiland Zakynthos, zonder je huis te verlaten. Vanaf een eeuwenoude Venetiaanse wachttoren kijk je uit over het adembenemende landschap, terwijl de lucht oranje en roze kleurt en de zon langzaam ondergaat.Met deze VR-ervaring sta je midden in deze serene omgeving en voel je de rust van de natuur om je heen. Zie hoe de zon zachtjes verdwijnt achter de horizon en de eilanden baden in het laatste licht van de dag. Het panoramische uitzicht laat je de schoonheid van dit bijzondere moment volledig beleven.Of je nu van prachtige uitzichten houdt of gewoon even wilt ontspannen, deze ervaring biedt je een unieke reis naar een van de mooiste plekken van Griekenland, direct vanuit je eigen woonkamer.",
 //            "Expurl" => "",
 //        ],
 //        4 => [
