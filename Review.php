@@ -141,7 +141,7 @@ while($row = mysqli_fetch_assoc($result))
 
         <div class="question">
             <label for="rate">cijfer:</label>
-            <select id="rate" name="rate" value="<?= htmlentities($rate) ?>">
+            <select id="rate" name="rate" value="<?= htmlentities($rate)?>">
                 <option value="1"> 1 </option>
                 <option value="2"> 2 </option>
                 <option value="3"> 3 </option>
