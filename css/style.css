@@ -115,6 +115,11 @@ nav {
     height: 5rem;
 }
 
+.experiencesButton:hover {
+    cursor: pointer;
+}
+
+
 .experiencesTitle {
     font-size: 2.5rem;
     padding-left: 9rem;
