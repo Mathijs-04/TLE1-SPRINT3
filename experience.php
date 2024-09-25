@@ -104,20 +104,47 @@ require_once 'includes/actions.php';
     <div class="navlinkera">
         <a href="index.php" class="navlinks">Home</a>
         <a href="experiences.php" class="navlinks">Ervaring</a>
-        <a href="aboutus.php" class="navlinks">Over ons</a>
+        <a href="aboutus.php" class="navlinks">Over Ons</a>
         <a href="Review.php" class="navlinks">Review</a>
     </div>
 </nav>
 
 <main>
     <div class='embed-container'>
-        <iframe src="https://momento360.com/e/u/fe738b62620345c4b63018a7c5f6869f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://momento360.com/e/u/fe738b62620345c4b63018a7c5f6869f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+                frameborder="0" allowfullscreen></iframe>
     </div>
     <div class='embed-container'>
-        <iframe src="https://momento360.com/e/u/740b1dc2dd9c440b8f05efe043731e5a?utm_campaign=embed&utm_source=other&heading=-155.45&pitch=-6.92&field-of-view=75&size=medium&display-plan=true" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://momento360.com/e/u/740b1dc2dd9c440b8f05efe043731e5a?utm_campaign=embed&utm_source=other&heading=-155.45&pitch=-6.92&field-of-view=75&size=medium&display-plan=true"
+                frameborder="0" allowfullscreen></iframe>
     </div>
     <div class='embed-container'>
-        <iframe src="https://momento360.com/e/u/4eb188d8ada6469a9486aa7b5ac1d40a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=55&size=medium&display-plan=true" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://momento360.com/e/u/4eb188d8ada6469a9486aa7b5ac1d40a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=55&size=medium&display-plan=true"
+                frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class='embed-container'>
+        <iframe src="https://momento360.com/e/u/91043e3f9f0e4c7295e8fedfec96931d?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+                frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class='embed-container'>
+        <iframe src="https://momento360.com/e/u/020ef5f9082740f893180e36f0da94a7?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+                frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class='embed-container'>
+        <iframe src="https://momento360.com/e/u/0441d0a47bc84fb5a6556c003b643836?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+                frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class='embed-container'>
+        <iframe src="https://momento360.com/e/u/96b4eafd580543bc9ffe67b542d148a3?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+                frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class='embed-container'>
+        <iframe src="https://momento360.com/e/u/191880e6b1a04013ba11fdc4ab6f6868?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+                frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class='embed-container'>
+        <iframe src="https://momento360.com/e/u/96c82f7a3021470484d0dff00f34ed9b?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+                frameborder="0" allowfullscreen></iframe>
     </div>
 </main>
 
