@@ -64,7 +64,7 @@
                              alt="Ga naar ervaringen overview" id="inHomeBut">
                 </div>
                 <div class="experiencesButton">
-                    <p>Bent U nog niet bekent met onze ervaringen? Doe dan deze test.</p>
+                    <p>Bent U nog niet bekend met onze ervaringen? Doe dan deze test.</p>
 
                         <img onclick="window.location.href = 'vragenlijst.php'" src="./img/goexperiences.png"
                              alt="Ga naar vragenlijst over ervaringen" id="inHomeBut">
