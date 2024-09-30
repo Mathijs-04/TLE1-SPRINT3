@@ -8,19 +8,21 @@
     <script src="./js/juno.js"></script>
 </head>
 <body>
-    <section class="list-wrapper">
+    <section class="question-wrapper fade-in">
         <article class="question-article">
-
+            <h1 class="question-title fade-in">Vraag 1</h1>
+            <p class="question-text fade-in">Heeft u enige ervaring met VR apparatuur?</p>
 
         </article>
-        <section class="answer-section">
-            <article class="button-blue">
-
+    </section>
+        <section class="answer-section fade-in">
+            <article class="button-blue fade-in">
+        <h2>Ja</h2>
             </article>
-            <article class="button-red">
-
+            <article class="button-red fade-in">
+        <h2>Nee</h2>
             </article>
         </section>
-    </section>
+
 </body>
 </html>
