@@ -20,8 +20,9 @@ if (isset($_POST['submit']))
 </head>
 <body>
 <nav>
-    <img src="./img/expcorp.webp" alt="logo" class="navlogo">
-    <div class="navlinkera">
+    <a href="index.php">
+        <img src="./img/expcorp.webp" alt="logo" class="navlogo">
+    </a>    <div class="navlinkera">
         <a href="index.php" class="navlinks">Home</a>
         <a href="experiences.php" class="navlinks">Ervaring</a>
         <a href="aboutus.php" class="navlinks">Over Ons</a>
