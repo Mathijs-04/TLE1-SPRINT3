@@ -1,12 +1,12 @@
 <?php
+include 'database/db_connection.php';
 
-if (isset($_POST['submit']))
-{
-    $categorie = $_POST['dropdown'];
-} else {
-    $categorie = '';
-}
+/** @var mysqli $db */
+
+$sql = "SELECT id, name, image_link FROM experience";
+$result = $db->query($sql);
 ?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -20,61 +20,27 @@ if (isset($_POST['submit']))
 </head>
 <body>
 <nav>
-    <img src="./img/expcorp.webp" alt="logo" class="navlogo">
-    <div class="navlinkera">
+    <a href="index.php">
+        <img src="./img/expcorp.webp" alt="logo" class="navlogo">
+    </a>    <div class="navlinkera">
         <a href="index.php" class="navlinks">Home</a>
         <a href="experiences.php" class="navlinks">Ervaring</a>
         <a href="aboutus.php" class="navlinks">Over Ons</a>
         <a href="product.php" class="navlinks">Product</a>
-
-
     </div>
 
 </nav>
 <main>
-    <section>
-        <h2>Experiences</h2>
-        <form action="" method="post">
-            <label for="dropdown"></label>
-            <select name="dropdown" id="dropdown">
-                <option value="<?= $categorie ?>"><?= htmlentities($categorie)?></option>
-                <option value="Natuur">Natuur</option>
-                <option value="Entertainment">Entertainment</option>
-                <option value="Reizen">Reizen</option>
-            </select>
-
-            <input type="submit" name="submit" value="Zoek catagorie">
-        </form>
-    </section>
-    <section id="expTaps">
-        <div>
-            <h3>Natuur</h3>
-            <ul>
-                <li><p>Mystieke Schoonheid van Navagio</p><a href="experience.php?id=1">Klik hier</a></li>
-                <li><p>Verken de Trinity in Shasta-Trinity National Forest</p><a href="experience.php?id=3">Klik hier</a></li>
-                <li><p>Panoramisch Uitzicht over Zakynthos</p><a href="experience.php?id=2">Klik hier</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>Entertaiment</h3>
-            <ul>
-                <li><p>Ontdek de Kunstzalen van Statens Museum</p><a href="experience.php?id=7">Klik hier</a></li>
-                <li><p>Verken de Pracht van het Bellagio</p><a href="experience.php?id=8">Klik hier</a></li>
-                <li><p>Verken Inside Pionir</p><a href="experience.php?id=9">Klik hier</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>Reizen</h3>
-            <ul>
-                <li><p>Een Virtuele Reis door een Dynamische Haven</p><a href="experience.php?id=4">Klik hier</a></li>
-                <li><p>Ontdek Parijs</p><a href="experience.php?id=5">Klik hier</a></li>
-                <li><p>Ontdek de Schoonheid van een Traditionele Japanse Tuin</p><a href="experience.php?id=6">Klik hier</a></li>
-            </ul>
-        </div>
-
-
-
-    </section>
+    <?php
+        if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+                echo "<div class='experience'>";
+                echo "<h1>" . htmlspecialchars($row["name"]) . "</h1>";
+                echo "<img src='" . htmlspecialchars($row["image_link"]) . "' alt='" . htmlspecialchars($row["name"]) . "' class='experienceImage'>";
+                echo "</div>";
+            }
+        }
+    ?>
 </main>
 <footer>
     <div>
