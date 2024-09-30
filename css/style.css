@@ -149,6 +149,49 @@ nav {
     border-radius: 50px;
 }
 
+.product {
+    display: flex;
+    align-items: center;
+    background-color: #F3F3F3;
+    justify-content: space-evenly;
+    padding: 5rem 0;
+}
+
+.productName {
+    font-size: 2.5rem;
+    color: #002242;
+}
+
+.productImage img {
+    height: 30rem;
+    width: auto;
+    border-radius: 50px;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: space-evenly;
+    height: 30rem;
+    line-height: 1.5rem;
+}
+
+.productButton {
+    background-color: #002242;
+    color: #F3F3F3;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    width: 10rem;
+}
+
+.navArrow {
+    text-decoration: none;
+    color: #002242;
+    font-size: 2.5rem;
+}
+
 footer {
     display: flex;
     flex-wrap: wrap;
