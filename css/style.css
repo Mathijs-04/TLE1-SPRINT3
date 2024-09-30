@@ -52,9 +52,11 @@ nav {
 
 .homeBanner {
     background-image: url("../img/homebanner.webp");
-    object-fit: cover;
-    height: 86vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-content: center;
+    min-height: 86vh;
+    width: 100vw;
 }
 
 .homeTitle {
@@ -71,6 +73,7 @@ nav {
     align-items: center;
     height: 50vh;
     padding: 2rem 0;
+    padding-bottom: 10vh;
     justify-content: space-evenly;
     background-color: #FFFFFF;
 }
@@ -85,12 +88,17 @@ nav {
 }
 
 .intro {
-    text-align: center;
-}
+    text-align: center;}
 
-.intro p {
-    width: 50vw;
-    font-size: 1.2rem;
+.introP1 {
+    width: 60vw;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #002242;
+}
+.introP2 {
+    width: 60vw;
+    font-size:  1.2rem;
     line-height: 2rem;
     color: #002242;
 }
@@ -123,13 +131,16 @@ nav {
 }
 
 .experiencesButton {
-    align-content: center;
+
 }
 
 .experiencesButton img {
     height: 5rem;
 }
-
+.experiencesButton p{
+    font-size: 1.5rem;
+    color: #002242;
+}
 
 .experiencesTitle {
     font-size: 2.5rem;
