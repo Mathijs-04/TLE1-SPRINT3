@@ -6,6 +6,9 @@ if (isset($_POST['submit']))
 } else {
     $categorie = '';
 }
+
+//test
+
 ?>
 <!doctype html>
 <html lang="en">
