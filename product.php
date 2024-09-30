@@ -1,6 +1,6 @@
 <?php
 /** @var $db */
-require_once "includes/database.php";
+require_once "database/db_connection.php";
 
 // Get product_id from URL
 $product_id = isset($_GET['id']) ? (int)$_GET['id'] : 1;
@@ -62,10 +62,10 @@ $next_id = $next_result && mysqli_num_rows($next_result) > 0 ? mysqli_fetch_asso
         </div>
         <div class="navigation">
             <?php if ($prev_id): ?>
-                <a href="product.php?id=<?php echo $prev_id; ?>" class="navArrow">Quest 3</a>
+                <a href="product.php?id=<?php echo $prev_id; ?>" class="navArrow"><</a>
             <?php endif; ?>
             <?php if ($next_id): ?>
-                <a href="product.php?id=<?php echo $next_id; ?>" class="navArrow">Quest 2</a>
+                <a href="product.php?id=<?php echo $next_id; ?>" class="navArrow">></a>
             <?php endif; ?>
         </div>
 </main>
