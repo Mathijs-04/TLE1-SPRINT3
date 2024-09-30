@@ -39,7 +39,9 @@ $next_id = $next_result && mysqli_num_rows($next_result) > 0 ? mysqli_fetch_asso
 </head>
 <body>
 <nav>
-    <img src="./img/expcorp.webp" alt="logo" class="navlogo">
+    <a href="index.php">
+        <img src="./img/expcorp.webp" alt="logo" class="navlogo">
+    </a>
     <div class="navlinkera">
         <a href="index.php" class="navlinks">Home</a>
         <a href="experiences.php" class="navlinks">Ervaring</a>
