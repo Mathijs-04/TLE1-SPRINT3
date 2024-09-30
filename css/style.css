@@ -52,9 +52,11 @@ nav {
 
 .homeBanner {
     background-image: url("../img/homebanner.webp");
-    object-fit: cover;
-    height: 86vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-content: center;
+    min-height: 86vh;
+    width: 100vw;
 }
 
 .homeTitle {
@@ -71,6 +73,7 @@ nav {
     align-items: center;
     height: 50vh;
     padding: 2rem 0;
+    padding-bottom: 10vh;
     justify-content: space-evenly;
     background-color: #FFFFFF;
 }
@@ -85,12 +88,17 @@ nav {
 }
 
 .intro {
-    text-align: center;
-}
+    text-align: center;}
 
-.intro p {
-    width: 50vw;
-    font-size: 1.2rem;
+.introP1 {
+    width: 60vw;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #002242;
+}
+.introP2 {
+    width: 60vw;
+    font-size:  1.2rem;
     line-height: 2rem;
     color: #002242;
 }
@@ -100,7 +108,7 @@ nav {
     color: #F3F3F3;
     border: none;
     border-radius: 5px;
-    padding: .5rem 1rem;
+    padding: 1rem 1.5rem;
 }
 
 .experiences {
@@ -113,7 +121,10 @@ nav {
     transition: all 0.15s ease-out;
     border-radius: 50%;
 }
+.experiencesButton button{
+    background: none;
 
+}
 .experiences img:hover {
     scale: 1.1;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
@@ -122,12 +133,20 @@ nav {
     cursor: pointer;
 }
 
-.experiencesButton {
-    align-content: center;
+#inHomeBut {
+    height: 5rem;
 }
 
-.experiencesButton img {
-    height: 5rem;
+.experiencesButton{
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.experiencesButton p{
+    font-size: 1.5rem;
+    color: #002242;
+    max-width: 20vw;
 }
 
 
@@ -393,5 +412,10 @@ table {
 
 .experience-info {
     padding: 2rem;
+}
+
+.experienceImage {
+    width: 40vw;
+    height: auto;
 }
 

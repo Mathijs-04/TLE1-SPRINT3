@@ -3,7 +3,6 @@ let parent;
 let audio;
 let audioPlaying = false;
 let databaseCall = "./webservice/index.php";
-
 let exp;
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -21,7 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
 function init() {
     console.log(window.location.href);
     AJAXRequest(databaseCall, expCardHandler)
-
+    const navImage = document.querySelector(".navlogo");
+    navImage.addEventListener("click", navLogo);
 }
 
 function AJAXRequest(location, successCallback) {
@@ -77,4 +77,7 @@ function stopAudio() {
         audio.pause();
         audio.currentTime = 0;
     }
+}
+function navLogo() {
+    window.location.href = "./index.html";
 }

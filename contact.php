@@ -29,12 +29,14 @@ if (isset($_POST['submit'])) {
 <body class="indexBody">
 
 <nav>
-    <img src="./img/expcorp.webp" alt="logo" class="navlogo">
+    <a href="index.php">
+        <img src="./img/expcorp.webp" alt="logo" class="navlogo">
+    </a>
     <div class="navlinkera">
         <a href="index.php" class="navlinks">Home</a>
         <a href="experiences.php" class="navlinks">Ervaring</a>
         <a href="aboutus.php" class="navlinks">Over Ons</a>
-        <a href="Review.php" class="navlinks">Review</a>
+        <a href="product.php" class="navlinks">Product</a>
 
 
     </div>

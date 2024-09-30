@@ -12,13 +12,14 @@
 <body class="indexBody">
 
 <nav>
-    <img src="./img/expcorp.webp" alt="logo" class="navlogo">
+    <a href="index.php">
+        <img src="./img/expcorp.webp" alt="logo" class="navlogo">
+    </a>
     <div class="navlinkera">
         <a href="index.php" class="navlinks">Home</a>
         <a href="experiences.php" class="navlinks">Ervaring</a>
         <a href="aboutus.php" class="navlinks">Over Ons</a>
-        <a href="Review.php" class="navlinks">Review</a>
-
+        <a href="product.php" class="navlinks">Product</a>
 
     </div>
 
@@ -33,10 +34,13 @@
             <img src="./img/expcorpshield.webp" alt="shieldimg">
         </div>
         <div class="intro">
-            <p>EXPCorp gebruikt virtual reality om het leven van ouderen in verzorgingstehuizen te verrijken. We bieden
-                hen nieuwe mogelijkheden en avonturen buiten hun dagelijkse omgeving. Ons doel is om leeftijd geen
+            <p class="introP1">EXPCorp gebruikt virtual reality om het leven van ouderen in verzorgingstehuizen te verrijken. We bieden
+                U nieuwe mogelijkheden en avonturen buiten hun dagelijkse omgeving. Ons doel is om leeftijd geen
                 beperking te laten zijn in het ontdekken van de wereld. Zo creëren we bijzondere momenten voor
                 senioren.</p>
+            <p class="introP2">
+                Wilt u meer weten over ons bedrijf en onze missie? Klik dan op de knop hieronder.
+            </p>
         </div>
         <div>
             <button class="aboutUsButton" type="button" onclick="window.location.href = 'aboutus.php'">Over Ons</button>
@@ -44,7 +48,7 @@
     </div>
 
     <div class="experiences">
-        <h2 class="experiencesTitle">Experiences</h2>
+        <h2 class="experiencesTitle">Ervaringen</h2>
         <div class="experienceArticles">
             <article>
                 <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT2/experience.php?id=1'" src="./img/tropical-beach-view.webp" alt="beach">
@@ -52,11 +56,31 @@
             <article>
                 <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT2/experience.php?id=3'" src="./img/forest-view.webp" alt="forest">
             </article>
-            <div class="experiencesButton">
-                <img onclick="window.location.href = 'experiences.php'" src="./img/goexperiences.png"
-                     alt="goExperiences">
+            <div class="homeButtonDiv">
+                <div class="experiencesButton">
+                    <p>Voor meer ervaringen</p>
+                    <button>
+                        <img onclick="window.location.href = 'experiences.php'" src="./img/goexperiences.png"
+                             alt="Ga naar ervaringen overview" id="inHomeBut">
+                    </button>
+                </div>
+                <div class="experiencesButton">
+                    <p>Bent U nog niet bekent met onze ervaringen? Doe dan deze test.</p>
+                    <button>
+                        <img onclick="window.location.href = 'vragenlijst.php'" src="./img/goexperiences.png"
+                             alt="Ga naar vragenlijst over ervaringen" id="inHomeBut">
+                    </button>
+
+                </div>
+
+
+
+
             </div>
+
+
         </div>
+
     </div>
 </main>
 <footer>
