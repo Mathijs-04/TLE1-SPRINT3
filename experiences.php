@@ -36,7 +36,7 @@ $result = $db->query($sql);
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
             $experienceName = htmlspecialchars($row["name"]);
-            $url = './VR_experiences/' . strtolower(str_replace(' ', '_', $experienceName)) . '.html';
+            $url = './VR_experiences/' . strtolower(str_replace(' ', '_', $experienceName)) . '.php';
             echo "<a href='$url'>";
             echo "<div class='experienceDiv'>";
             echo "<h1 class='experienceName'>" . $experienceName . "</h1>";
