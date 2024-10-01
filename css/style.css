@@ -105,10 +105,12 @@ nav {
 
 .aboutUsButton {
     background-color: #002242;
+    font-size: 1.5rem;
     color: #F3F3F3;
     border: none;
     border-radius: 5px;
-    padding: 1rem 1.5rem;
+    padding: 1rem;
+    width: 10rem;
 }
 
 .experiences {
@@ -238,6 +240,16 @@ nav {
     text-decoration: none;
     color: #002242;
     font-size: 4rem;
+}
+
+.goExperience {
+    background-color: #002242;
+    font-size: 1.5rem;
+    color: #F3F3F3;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 15rem;
 }
 
 footer {
