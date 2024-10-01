@@ -50,12 +50,15 @@
     <div class="experiences">
         <h2 class="experiencesTitle">Ervaringen</h2>
         <div class="experienceArticles">
-            <article>
-                <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT2/experience.php?id=1'" src="./img/tropical-beach-view.webp" alt="beach">
-            </article>
-            <article>
-                <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT2/experience.php?id=3'" src="./img/forest-view.webp" alt="forest">
-            </article>
+                <article>
+                    <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT3/experience.php?id=1'" src="./img/tropical-beach-view.webp" alt="beach">
+                    <h3 class="expTitle">title</h3>
+                </article>
+                <article>
+                    <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT3/experience.php?id=3'" src="./img/forest-view.webp" alt="forest">
+                    <h3 class="expTitle">title</h3>
+                </article>
+
             <div class="homeButtonDiv">
                 <div class="experiencesButton">
                     <p>Voor meer ervaringen</p>
