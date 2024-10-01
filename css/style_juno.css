@@ -47,11 +47,13 @@
 }
 
 .question-article p {
+    color: #002242;
     font-size: 1.2rem;
     line-height: 1.5;
 
 }
 .question-article h1 {
+    color: #002242;
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1vh;
