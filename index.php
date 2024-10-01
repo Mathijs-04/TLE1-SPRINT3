@@ -51,12 +51,15 @@
         <h2 class="experiencesTitle">Ervaringen</h2>
         <div class="experienceArticles">
                 <article>
-                    <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT3/experience.php?id=1'" src="./img/tropical-beach-view.webp" alt="beach">
-                    <h3 class="expTitle">title</h3>
+                    <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT3/VR_experiences/egypt.php'" src="./VR_experiences/images/japan.webp" alt="Japanse tuin">
+                    <h3 class="expTitle">Japan
+                    </h3>
                 </article>
                 <article>
-                    <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT3/experience.php?id=3'" src="./img/forest-view.webp" alt="forest">
-                    <h3 class="expTitle">title</h3>
+                    <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT3/VR_experiences/japan.php'" src="./VR_experiences/images/egypt.webp" alt="Egyptische woestijn">
+                    <h3 class="expTitle">Egypte
+
+                    </h3>
                 </article>
 
             <div class="homeButtonDiv">

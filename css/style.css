@@ -170,11 +170,11 @@ nav {
 }
 
 .expTitle{
-    margin-top:-10vh;
+    margin-top:-12vh;
     color: #002242;
     max-width: 6vw;
     background: #F3F3F3;
-    border-radius: 2px;
+    border-radius: 6px;
     padding: 1vh 2vw;
 }
 
