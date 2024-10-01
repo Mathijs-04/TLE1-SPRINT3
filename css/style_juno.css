@@ -1,11 +1,16 @@
+@font-face {
+    font-family: "Font";
+    src: url('../font/Font.woff') format('woff');
+}
+html {
+    font-family: "Font", sans-serif;
+    background-color: #F3F3F3;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
 }
-
 
 .fade-in {
     opacity: 1;
@@ -21,7 +26,6 @@
     transition: 1s ease-out;
 }
 
-
 .question-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -33,32 +37,28 @@
 .question-article {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 0vh;
+    padding: 2vh 3vw;
     border: 1px solid #e5e5e5;
     border-radius: 5px;
     background-color: #fff;
     box-shadow: .2rem .4rem rgba(0, 0, 0, 0.1);
     width: 40vw;
     text-align: center;
-
-
-
     transition: 1s fade-in;
 }
 
 .question-article p {
     color: #002242;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
 
 }
 .question-article h1 {
     color: #002242;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 1vh;
-    font-weight: normal;
-}
+    }
 
 .answer-section {
     display: flex;
