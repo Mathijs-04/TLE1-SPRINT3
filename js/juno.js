@@ -137,12 +137,11 @@ function counter () {
     if (qaCounter >= 11) {
         if (blueString < 0) {
             //MOTIONSICKNESS URL
-            window.location.replace("https://localhost/TLE1-SPRINT3/helaas.php");
+            window.location.replace("http://localhost/TLE1-SPRINT3/helaas.php");
         }  else if (redString > 17) {
         // JE HEBT AL EEN VRBRIL WE KUNNEN JE NIET HELPEN
-        window.location.replace("https://localhost/TLE1-SPRINT3/gelukkig.php");
+        window.location.replace("http://localhost/TLE1-SPRINT3/gelukkig.php");
         }
-
 
         else if ( blueString < 4) {
             // BEGINNER
@@ -155,7 +154,7 @@ function counter () {
             window.location.replace("http://localhost/TLE1-SPRINT3/product.php?id=3");
         } else if (redString > 17) {
             // JE HEBT AL EEN VRBRIL WE KUNNEN JE NIET HELPEN
-            window.location.replace("https://localhost/TLE1-SPRINT3/gelukkig.php");
+            window.location.replace("http://localhost/TLE1-SPRINT3/gelukkig.php");
         }
     }
 
