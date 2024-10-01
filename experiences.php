@@ -32,14 +32,18 @@ $result = $db->query($sql);
 </nav>
 <main>
     <?php
-        if ($result->num_rows > 0) {
-            while ($row = $result->fetch_assoc()) {
-                echo "<div class='experience'>";
-                echo "<h1>" . htmlspecialchars($row["name"]) . "</h1>";
-                echo "<img src='" . htmlspecialchars($row["image_link"]) . "' alt='" . htmlspecialchars($row["name"]) . "' class='experienceImage'>";
-                echo "</div>";
-            }
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            $experienceName = htmlspecialchars($row["name"]);
+            $url = './VR_experiences/' . strtolower(str_replace(' ', '_', $experienceName)) . '.html';
+            echo "<a href='$url'>";
+            echo "<div class='experience'>";
+            echo "<h1>" . $experienceName . "</h1>";
+            echo "<img src='" . htmlspecialchars($row["image_link"]) . "' alt='" . $experienceName . "' class='experienceImage'>";
+            echo "</div>";
+            echo "</a>";
         }
+    }
     ?>
 </main>
 <footer>
