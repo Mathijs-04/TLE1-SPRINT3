@@ -197,14 +197,26 @@ nav {
     font-size: 1.5rem;
 }
 
+.productBuy {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 .productButton {
     background-color: #002242;
-    font-size: 1.5rem   ;
+    font-size: 1.5rem;
     color: #F3F3F3;
     border: none;
     border-radius: 5px;
     padding: 1rem;
     width: 10rem;
+}
+
+.productPrice {
+    color: #002242;
+    font-size: 2rem;
+    font-weight: bold
 }
 
 .navArrow {
