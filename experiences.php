@@ -31,14 +31,15 @@ $result = $db->query($sql);
 
 </nav>
 <main>
+    <h1 class="experienceTitle">Experiences</h1>
     <?php
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
             $experienceName = htmlspecialchars($row["name"]);
             $url = './VR_experiences/' . strtolower(str_replace(' ', '_', $experienceName)) . '.html';
             echo "<a href='$url'>";
-            echo "<div class='experience'>";
-            echo "<h1>" . $experienceName . "</h1>";
+            echo "<div class='experienceDiv'>";
+            echo "<h1 class='experienceName'>" . $experienceName . "</h1>";
             echo "<img src='" . htmlspecialchars($row["image_link"]) . "' alt='" . $experienceName . "' class='experienceImage'>";
             echo "</div>";
             echo "</a>";
