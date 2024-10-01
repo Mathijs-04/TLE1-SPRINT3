@@ -137,19 +137,19 @@ function counter () {
     if (qaCounter >= 11) {
         if (blueString < 0) {
             //MOTIONSICKNESS URL
-            window.location.replace("http://www.w3schools.com");
+            window.location.replace("https://localhost/TLE1-SPRINT3/helaas.php");
         } else if ( blueString < 4) {
             // BEGINNER
-            window.location.replace("http://www.bing.com");
+            window.location.replace("http://localhost/TLE1-SPRINT3/product.php?id=1");
         } else if ( blueString < 7) {
             // Intermidiate
-            window.location.replace("http://www.youtube.com");
+            window.location.replace("http://localhost/TLE1-SPRINT3/product.php?id=2");
         } else if ( blueString < 10) {
             // Expert
-            window.location.replace("http://www.twitter.com");
+            window.location.replace("http://localhost/TLE1-SPRINT3/product.php?id=3");
         } else if (redString > 17) {
             // JE HEBT AL EEN VRBRIL WE KUNNEN JE NIET HELPEN
-            window.location.replace("http://www.google.com");
+            window.location.replace("https://localhost/TLE1-SPRINT3/gelukkig.php");
         }
     }
 
