@@ -1,12 +1,3 @@
-<?php
-include 'database/db_connection.php';
-
-/** @var mysqli $db */
-
-$sql = "SELECT id, name, image_link FROM experience";
-$result = $db->query($sql);
-?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -16,13 +7,14 @@ $result = $db->query($sql);
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="./css/style.css" rel="stylesheet">
     <script src="./js/main.js"></script>
-    <title>Experiences</title>
+    <title>Helaas</title>
 </head>
 <body>
 <nav>
     <a href="index.php">
         <img src="./img/expcorp.webp" alt="logo" class="navlogo">
-    </a>    <div class="navlinkera">
+    </a>
+    <div class="navlinkera">
         <a href="index.php" class="navlinks">Home</a>
         <a href="experiences.php" class="navlinks">Ervaring</a>
         <a href="aboutus.php" class="navlinks">Over Ons</a>
@@ -31,21 +23,15 @@ $result = $db->query($sql);
 
 </nav>
 <main>
-    <h1 class="experienceTitle">Experiences</h1>
-    <?php
-    if ($result->num_rows > 0) {
-        while ($row = $result->fetch_assoc()) {
-            $experienceName = htmlspecialchars($row["name"]);
-            $url = './VR_experiences/' . strtolower(str_replace(' ', '_', $experienceName)) . '.html';
-            echo "<a href='$url'>";
-            echo "<div class='experienceDiv'>";
-            echo "<h1 class='experienceName'>" . $experienceName . "</h1>";
-            echo "<img src='" . htmlspecialchars($row["image_link"]) . "' alt='" . $experienceName . "' class='experienceImage'>";
-            echo "</div>";
-            echo "</a>";
-        }
-    }
-    ?>
+    <div class="product">
+
+        <div class="productInfo">
+            <h1 class="productName">Helaas...</h1>
+            <p>Beste klant,<br>
+                Als u gevoelig bent voor bewegingsziekten tijdens het gebruik van VR raden wij het af om onze ervaringen
+                te gebruiken.<br>
+                Wij bieden geen headsets aan voor mensen die gevoelig zijn voor deze bewegingsziekten.</p>
+        </div>
 </main>
 <footer>
     <div>
@@ -57,7 +43,8 @@ $result = $db->query($sql);
     <div class="footerContent">
         <div class="legals">
             <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Privacyverklaring</a>
-            <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Algemene voorwaarden</a>
+            <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Algemene
+                voorwaarden</a>
             <a href="https://drive.google.com/file/d/1Dgpov7vXRdX2jVjCYHre-El7Ds2jDf0H/view" target="_blank">Cookiebeleid</a>
             <a href="contact.php">Contact</a>
         </div>
