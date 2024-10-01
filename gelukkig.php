@@ -30,6 +30,8 @@
             <p>Beste klant,<br>
             U heeft al een VR headset! Dit betekent dat u geen headset meer hoeft te kopen en gelijk door kunt naar het ervaren!</p>
         </div>
+        <div>
+            <button class="goExperience" type="button">Ga naar ervaringen</button>
 </main>
 <footer>
     <div>
