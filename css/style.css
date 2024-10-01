@@ -161,6 +161,21 @@ nav {
 
 }
 
+.experienceArticles article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expTitle{
+    margin-top:-10vh;
+    color: #002242;
+    max-width: 6vw;
+    background: #F3F3F3;
+    border-radius: 2px;
+    padding: 1vh 2vw;
+}
+
 .experienceArticles article img {
     height: 45vh;
     width: 30vw;
