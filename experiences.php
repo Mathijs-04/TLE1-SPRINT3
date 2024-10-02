@@ -39,7 +39,7 @@ $result = $db->query($sql);
             $url = './VR_experiences/' . strtolower(str_replace(' ', '_', $experienceName)) . '.php';
             echo "<a href='$url'>";
             echo "<div class='experienceDiv'>";
-            echo "<h1 class='experienceName'>" . $experienceName . "</h1>";
+            echo "<h1 class='experienceName'>" . $experienceName . " <br><br>Klik om de experience te starten</h1>";
             echo "<img src='" . htmlspecialchars($row["image_link"]) . "' alt='" . $experienceName . "' class='experienceImage'>";
             echo "</div>";
             echo "</a>";
