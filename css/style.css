@@ -29,6 +29,7 @@ nav {
 
 .navlinks {
     margin: 20px;
+    font-weight: bolder;
     padding-bottom: 5px;
     text-decoration: none;
     color: #002242;
@@ -37,7 +38,7 @@ nav {
     background-size: 0 2px; /* vertical size of underline */
     background-repeat: no-repeat;
     background-position: left bottom; /* start position of underline */
-
+    font-size: 1.6rem;
 }
 
 .navlogo {
@@ -72,8 +73,8 @@ nav {
     flex-direction: column;
     align-items: center;
     height: 50vh;
-    padding: 2rem 0;
-    padding-bottom: 10vh;
+    padding: 10vh 0 20vh 0;
+
     justify-content: space-evenly;
     background-color: #FFFFFF;
 }
@@ -125,7 +126,6 @@ nav {
 }
 .experiencesButton button{
     background: none;
-
 }
 .experiences img:hover {
     scale: 1.1;
@@ -140,9 +140,9 @@ nav {
 }
 
 .experiencesButton{
-    margin-top: 4vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
 }
 .experiencesButton p{
@@ -150,7 +150,34 @@ nav {
     color: #002242;
     max-width: 20vw;
 }
+.homeVragenDiv{
+    border-radius: 2vw;
+    margin: 5vh 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+    gap: 5vw;
+    background: #002242;
+    color: #F3F3F3;
+}
+.homeVragenDiv img{
+    background-color: #F3F3F3;
 
+    border-radius: 50%;
+}
+.homeVragenDiv img:hover {
+    scale: 1.1;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+}
+.homeVragenDiv p {
+    margin-left: -5vw;
+    font-size: 2rem;
+}
 
 .experiencesTitle {
     font-size: 2.5rem;
@@ -160,6 +187,7 @@ nav {
 .experienceArticles {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 
 }
 

@@ -18,8 +18,9 @@
     <div class="navlinkera">
         <a href="index.php" class="navlinks">Home</a>
         <a href="experiences.php" class="navlinks">Ervaring</a>
-        <a href="aboutus.php" class="navlinks">Over Ons</a>
         <a href="product.php" class="navlinks">Product</a>
+        <a href="aboutus.php" class="navlinks">Over Ons</a>
+
 
     </div>
 
@@ -47,19 +48,23 @@
         </div>
     </div>
 
+    <div class="homeVragenDiv">
+            <p>Bent U nog niet bekend met onze ervaringen? Doe dan deze test.</p>
+            <img onclick="window.location.href = 'vragenlijst.php'" src="./img/goexperiences.png"
+                 alt="Ga naar vragenlijst over ervaringen" id="inHomeBut">
+
+    </div>
+
     <div class="experiences">
         <h2 class="experiencesTitle">Ervaringen</h2>
         <div class="experienceArticles">
                 <article>
                     <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT3/VR_experiences/egypt.php'" src="./VR_experiences/images/japan.webp" alt="Japanse tuin">
-                    <h3 class="expTitle">Japan
-                    </h3>
+                    <h3 class="expTitle">Japan</h3>
                 </article>
                 <article>
                     <img onclick="window.location.href = 'http://localhost/TLE1-SPRINT3/VR_experiences/japan.php'" src="./VR_experiences/images/egypt.webp" alt="Egyptische woestijn">
-                    <h3 class="expTitle">Egypte
-
-                    </h3>
+                    <h3 class="expTitle">Egypte</h3>
                 </article>
 
             <div class="homeButtonDiv">
@@ -68,14 +73,8 @@
                         <img onclick="window.location.href = 'experiences.php'" src="./img/goexperiences.png"
                              alt="Ga naar ervaringen overview" id="inHomeBut">
                 </div>
-                <div class="experiencesButton">
-                    <p>Bent U nog niet bekend met onze ervaringen? Doe dan deze test.</p>
-                        <img onclick="window.location.href = 'vragenlijst.php'" src="./img/goexperiences.png"
-                             alt="Ga naar vragenlijst over ervaringen" id="inHomeBut">
-                </div>
             </div>
         </div>
-
     </div>
 </main>
 <footer>

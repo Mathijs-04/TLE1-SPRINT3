@@ -25,8 +25,9 @@ $result = $db->query($sql);
     </a>    <div class="navlinkera">
         <a href="index.php" class="navlinks">Home</a>
         <a href="experiences.php" class="navlinks">Ervaring</a>
-        <a href="aboutus.php" class="navlinks">Over Ons</a>
         <a href="product.php" class="navlinks">Product</a>
+        <a href="aboutus.php" class="navlinks">Over Ons</a>
+
     </div>
 
 </nav>
