@@ -60,7 +60,7 @@ function getExperienceById($id)
         "Expurl" => ""
     ],
 
-]; *//
+]; */
 
 
     return $experiences[$id] ?? [];
