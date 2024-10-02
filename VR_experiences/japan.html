@@ -25,10 +25,22 @@
         <img id="thumbForest" crossOrigin="anonymous" src="https://cdn.aframe.io/link-traversal/thumbs/forest.png">
         <a-asset-item id="messageText" src="message.html"></a-asset-item>
       </a-assets>
+      <a-entity id="rig">
+        <a-camera position="0 1.6 0"></a-camera>
+        <a-entity
+                oculus-touch-controls="hand: left"
+                oculus-thumbstick-controls
+                link-controls="hand: left">
+        </a-entity>
+        <a-entity
+                oculus-touch-controls="hand: right"
+                oculus-thumbstick-controls
+                link-controls="hand: right">
+        </a-entity>
+      </a-entity>
 
       <a-entity light="type: point; color: #f4f4f4; intensity: 0.4; distance: 0" position="0 2 0"></a-entity>
-      <a-entity id="leftHand" link-controls="hand: left"></a-entity>
-      <a-entity id="rightHand" link-controls="hand: right"></a-entity>
+
     </a-scene>
   </body>
 </html>
