@@ -5,9 +5,8 @@ function getExperienceById($id)
 {
 
 
-$experiences = [
-    1 => [
-        "experience" => "Egypt",
+/*$experiences = [
+    1 => [        "experience" => "Egypt",
        "Image" => "./VR_experiences/images/egypt.webp",
         "information" => "Stap binnen in het hart van de sportcultuur van Belgrado met deze unieke VR-ervaring. Verken Inside Pionir, de iconische thuisbasis van Basketball Club Partizan, waar geschiedenis en passie samenkomen. Voel de opwinding van de sport terwijl je rondkijkt in deze indrukwekkende arena. Zie de tribunes gevuld met enthousiaste fans en de energie die door de lucht stroomt tijdens een spannende wedstrijd. Met elk detail dat je ontdekt, krijg je een gevoel van de rijke traditie en de trots die de club met zich meebrengt. Of je nu een fan bent van basketball of gewoon nieuwsgierig naar de sfeer in de arena, deze ervaring laat je de intensiteit van een livewedstrijd beleven, allemaal vanuit het comfort van je eigen huis. Zet je VR-bril op en laat je meeslepen in de wereld van Partizan.",
         "Expurl" => ""
@@ -54,14 +53,15 @@ $experiences = [
         "information" => "Stap binnen in het hart van de sportcultuur van Belgrado met deze unieke VR-ervaring. Verken Inside Pionir, de iconische thuisbasis van Basketball Club Partizan, waar geschiedenis en passie samenkomen. Voel de opwinding van de sport terwijl je rondkijkt in deze indrukwekkende arena. Zie de tribunes gevuld met enthousiaste fans en de energie die door de lucht stroomt tijdens een spannende wedstrijd. Met elk detail dat je ontdekt, krijg je een gevoel van de rijke traditie en de trots die de club met zich meebrengt. Of je nu een fan bent van basketball of gewoon nieuwsgierig naar de sfeer in de arena, deze ervaring laat je de intensiteit van een livewedstrijd beleven, allemaal vanuit het comfort van je eigen huis. Zet je VR-bril op en laat je meeslepen in de wereld van Partizan.",
         "Expurl" => ""
     ],
-    9 => [
+ //   9 => [
         "experience" => "Mysteryland",
        "Image" => "./VR_experiences/images/mysteryland.webp",
         "information" => "Stap binnen in het hart van de sportcultuur van Belgrado met deze unieke VR-ervaring. Verken Inside Pionir, de iconische thuisbasis van Basketball Club Partizan, waar geschiedenis en passie samenkomen. Voel de opwinding van de sport terwijl je rondkijkt in deze indrukwekkende arena. Zie de tribunes gevuld met enthousiaste fans en de energie die door de lucht stroomt tijdens een spannende wedstrijd. Met elk detail dat je ontdekt, krijg je een gevoel van de rijke traditie en de trots die de club met zich meebrengt. Of je nu een fan bent van basketball of gewoon nieuwsgierig naar de sfeer in de arena, deze ervaring laat je de intensiteit van een livewedstrijd beleven, allemaal vanuit het comfort van je eigen huis. Zet je VR-bril op en laat je meeslepen in de wereld van Partizan.",
         "Expurl" => ""
     ],
 
-];
+]; *//
+
 
     return $experiences[$id] ?? [];
 }
