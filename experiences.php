@@ -32,7 +32,7 @@ $result = $db->query($sql);
 
 </nav>
 <main>
-    <h1 class="experienceTitle">Experiences</h1>
+    <h1 class="experienceTitle">Ervaringen</h1>
     <?php
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
