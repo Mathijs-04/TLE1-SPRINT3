@@ -170,11 +170,11 @@ nav {
 }
 
 .expTitle{
-    margin-top:-12vh;
+    margin-top:-10vh;
     color: #002242;
     max-width: 6vw;
     background: #F3F3F3;
-    border-radius: 6px;
+    border-radius: 2px;
     padding: 1vh 2vw;
 }
 
@@ -199,7 +199,7 @@ nav {
 }
 
 .productImage img {
-    height: 35rem;
+    height: 30rem;
     width: auto;
     border-radius: 50px;
 }
@@ -537,4 +537,66 @@ table {
 a:-webkit-any-link {
     text-decoration: none;
 }
+
+/* Styling voor de experience pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+img {
+    display: block;
+    margin: 0 auto 30px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.8;
+    text-align: justify;
+    color: #34495e;
+    margin-bottom: 40px;
+}
+
+.demo-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.demo-button a {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.8em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.demo-button a:hover {
+    background-color: #0056b3;
+}
+
 
